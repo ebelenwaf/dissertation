@@ -1,0 +1,80 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: acknowl.aux
+A level-1 auxiliary file: preface.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: null.aux
+A level-1 auxiliary file: chapter1.aux
+A level-1 auxiliary file: background.aux
+A level-1 auxiliary file: chapter2.aux
+A level-1 auxiliary file: chapter3.aux
+A level-1 auxiliary file: chapter4.aux
+A level-1 auxiliary file: chapter5.aux
+A level-1 auxiliary file: chapter6.aux
+The style file: plain.bst
+Database file #1: refrences.bib
+Repeated entry---line 867 of file refrences.bib
+ : @article {dave
+ :               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1343 of file refrences.bib
+ : @inbook{Bertino2015
+ :                    ,
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in prov_json
+Warning--to sort, need author or key in prov_dm
+Warning--empty journal in barcena2015insecurity
+Warning--empty year in barcena2015insecurity
+Warning--empty booktitle in Bates2014LinuxPM
+Warning--can't use both author and editor fields in Bertino2015
+Warning--empty publisher in glavic_case_2011
+Warning--empty journal in jeep_vulnerabilty
+Warning--empty year in groth
+Warning--can't use both author and editor fields in Lazarevic2005
+Warning--empty publisher in grass
+Warning--empty year in grass
+Warning--empty booktitle in Mattern
+Warning--empty journal in smart_thermostat
+You've used 58 entries,
+            2118 wiz_defined-function locations,
+            872 strings with 16731 characters,
+and the built_in function-call counts, 23154 in all, are:
+= -- 2396
+> -- 986
+< -- 38
++ -- 390
+- -- 325
+* -- 1499
+:= -- 3561
+add.period$ -- 212
+call.type$ -- 58
+change.case$ -- 326
+chr.to.int$ -- 0
+cite$ -- 72
+duplicate$ -- 1013
+empty$ -- 1864
+format.name$ -- 325
+if$ -- 5173
+int.to.chr$ -- 0
+int.to.str$ -- 58
+missing$ -- 57
+newline$ -- 297
+num.names$ -- 121
+pop$ -- 426
+preamble$ -- 1
+purify$ -- 274
+quote$ -- 0
+skip$ -- 748
+stack$ -- 0
+substring$ -- 1330
+swap$ -- 340
+text.length$ -- 38
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 221
+warning$ -- 14
+while$ -- 224
+width$ -- 60
+write$ -- 707
+(There were 2 error messages)
