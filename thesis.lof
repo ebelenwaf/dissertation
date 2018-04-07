@@ -1,18 +1,16 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Smart home use case Diagram}}{3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Provenance depicted as as a college transcript. }}{6}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces IoT Architecture Diagram. The arrows illustrates the interaction between data at various layers on the architecture.}}{11}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Prov-DM respresentation showing types in the model (Entity, Activity, and Agent) and the relationships between them }}{12}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces PROV-JSON MODEL \copyright \cite {prov_json}}}{14}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Prov-DM respresentation showing types in the model (Entity, Activity, and Agent) and the relationships between them \relax }}{9}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Provenance-Sensor Model }}{31}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces System Architecture for PAIoTS.}}{33}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Neo4j graph.}}{34}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Provenance file size growth rate.}}{36}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Provenance graph generated from a thermostat device.\relax }}{26}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Prov-CPS Conceptual System Design.\relax }}{27}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Prov-CPS System Implementation.\relax }}{28}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Components of a provenance graph where nodes represents types (agent, activity, and entity) and edges represents relationship between types}}{42}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Provenance graph conversion to vector space. $u_x, u_y$ represents the vectors generated from both provenance graphs}}{43}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Provenance graph comparison of climate control system by week}}{50}
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Provenance graph comparison of climate control system by week.\relax }}{39}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Receiver operating characteristic (ROC) curves without pruning and with FIFO or Priority pruning.\relax }}{43}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {ROC with No Pruning}}}{43}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {ROC with FIFO Pruning}}}{43}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {ROC with Priority Pruning}}}{43}

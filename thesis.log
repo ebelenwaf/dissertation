@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 FEB 2018 01:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  7 APR 2018 19:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -369,9 +369,73 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthlast=\dimen154
 \titlewidthfirst=\dimen155
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen156
+\lightrulewidth=\dimen157
+\cmidrulewidth=\dimen158
+\belowrulesep=\dimen159
+\belowbottomsep=\dimen160
+\aboverulesep=\dimen161
+\abovetopsep=\dimen162
+\cmidrulesep=\dimen163
+\cmidrulekern=\dimen164
+\defaultaddspace=\dimen165
+\@cmidla=\count111
+\@cmidlb=\count112
+\@aboverulesep=\dimen166
+\@belowrulesep=\dimen167
+\@thisruleclass=\count113
+\@lastruleclass=\count114
+\@thisrulewidth=\dimen168
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen169
+\captionmargin@=\dimen170
+\captionwidth=\dimen171
+\caption@tempdima=\dimen172
+\caption@indent=\dimen173
+\caption@parindent=\dimen174
+\caption@hangindent=\dimen175
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\vskip \abovecaptionski
+p \sbox \@tempboxa {#1: #2}\ifdim \wd \@tempboxa >\hsize \sbox \@tempboxa {#1: 
+#2}\begin {center} \ssp #1: \parbox [t]{5in}{#2} \end {center} \else \global \@
+minipagefalse \hb@xt@ \hsize {\hfil \box \@tempboxa \hfil }\fi \vskip \belowcap
+tionskip .
+\c@ContinuedFloat=\count115
+)
+\c@KVtest=\count116
+\sf@farskip=\skip45
+\sf@captopadj=\dimen176
+\sf@capskip=\skip46
+\sf@nearskip=\skip47
+\c@subfigure=\count117
+\c@subfigure@save=\count118
+\c@lofdepth=\count119
+\c@subtable=\count120
+\c@subtable@save=\count121
+\c@lotdepth=\count122
+\sf@top=\skip48
+\sf@bottom=\skip49
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/03/10 v2.15b AMS math features
-\@mathmargin=\skip45
+\@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -380,49 +444,49 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks28
-\ex@=\dimen156
+\ex@=\dimen177
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen157
+\pmbraise@=\dimen178
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count111
+\inf@bad=\count123
 LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count112
-\leftroot@=\count113
+\uproot@=\count124
+\leftroot@=\count125
 LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count114
-\DOTSCASE@=\count115
+\classnum@=\count126
+\DOTSCASE@=\count127
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box38
 \strutbox@=\box39
-\big@size=\dimen158
+\big@size=\dimen179
 LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
-\macc@depth=\count116
-\c@MaxMatrixCols=\count117
+\macc@depth=\count128
+\c@MaxMatrixCols=\count129
 \dotsspace@=\muskip11
-\c@parentequation=\count118
-\dspbrk@lvl=\count119
+\c@parentequation=\count130
+\dspbrk@lvl=\count131
 \tag@help=\toks29
-\row@=\count120
-\column@=\count121
-\maxfields@=\count122
+\row@=\count132
+\column@=\count133
+\maxfields@=\count134
 \andhelp@=\toks30
-\eqnshift@=\dimen159
-\alignsep@=\dimen160
-\tagshift@=\dimen161
-\tagwidth@=\dimen162
-\totwidth@=\dimen163
-\lineht@=\dimen164
+\eqnshift@=\dimen180
+\alignsep@=\dimen181
+\tagshift@=\dimen182
+\tagwidth@=\dimen183
+\totwidth@=\dimen184
+\lineht@=\dimen185
 \@envbody=\toks31
-\multlinegap=\skip46
-\multlinetaggap=\skip47
+\multlinegap=\skip51
+\multlinetaggap=\skip52
 \mathdisplay@stack=\toks32
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
@@ -433,7 +497,7 @@ nment
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count123
+\c@float@type=\count135
 \float@exts=\toks33
 \float@box=\box40
 \@float@everytoks=\toks34
@@ -443,7 +507,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks35
-\c@algorithm=\count124
+\c@algorithm=\count136
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
@@ -452,58 +516,55 @@ Package: algpseudocode
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count125
-\c@ALG@rem=\count126
-\c@ALG@nested=\count127
-\ALG@tlm=\skip48
-\ALG@thistlm=\skip49
-\c@ALG@Lnr=\count128
-\c@ALG@blocknr=\count129
-\c@ALG@storecount=\count130
-\c@ALG@tmpcounter=\count131
-\ALG@tmplength=\skip50
+\c@ALG@line=\count137
+\c@ALG@rem=\count138
+\c@ALG@nested=\count139
+\ALG@tlm=\skip53
+\ALG@thistlm=\skip54
+\c@ALG@Lnr=\count140
+\c@ALG@blocknr=\count141
+\c@ALG@storecount=\count142
+\c@ALG@tmpcounter=\count143
+\ALG@tmplength=\skip55
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 ) (./thesis.aux
 (./acknowl.aux) (./preface.aux) (./abstract.aux) (./null.aux) (./chapter1.aux)
-(./background.aux
+(./background.aux) (./chapter2.aux) (./chapter3.aux) (./chapter4.aux)
+(./chapter5.aux) (./chapter6.aux
 
-LaTeX Warning: Label `smart_home' multiply defined.
+LaTeX Warning: Label `figure' multiply defined.
 
-) (./chapter2.aux) (./chapter3.aux
-
-LaTeX Warning: Label `architecture' multiply defined.
-
-) (./chapter4.aux) (./chapter5.aux) (./chapter6.aux))
+) (./chapter7.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count132
-\scratchdimen=\dimen165
+\scratchcounter=\count144
+\scratchdimen=\dimen186
 \scratchbox=\box42
-\nofMPsegments=\count133
-\nofMParguments=\count134
+\nofMPsegments=\count145
+\nofMParguments=\count146
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count135
-\MPscratchDim=\dimen166
-\MPnumerator=\count136
-\makeMPintoPDFobject=\count137
+\MPscratchCnt=\count147
+\MPscratchDim=\dimen187
+\MPnumerator=\count148
+\makeMPintoPDFobject=\count149
 \everyMPtoPDFconversion=\toks37
 ) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
@@ -553,53 +614,57 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-LaTeX Info: Redefining \celsius on input line 24.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 24.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Info: Redefining \celsius on input line 26.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 26.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 24.
-Package gensymb Info: Using \Omega for \ohm on input line 24.
+LaTeX Info: Redefining \ohm on input line 26.
+Package gensymb Info: Using \Omega for \ohm on input line 26.
 
 Package gensymb Warning: Not defining \micro.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 
  []
 
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 74.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 77.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 74.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 77.
  [2] [3] [4]
 \openout2 = `acknowl.aux'.
 
@@ -623,28 +688,27 @@ No file preface.tex.
 ] (./thesis.toc [7
 
 
-] [8])
+])
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
 
- [9] (./thesis.lot)
+ [8] (./thesis.lot)
 \tf@lot=\write5
 \openout5 = `thesis.lot'.
 
- [10
+ [9
 
-]
-(./thesis.lof)
+] (./thesis.lof)
 \tf@lof=\write6
 \openout6 = `thesis.lof'.
 
- [11
+
+[10
 
 ]
 \openout2 = `null.aux'.
 
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/knuth-lib/null.tex)
+ (/usr/local/texlive/2016/texmf-dist/tex/generic/knuth-lib/null.tex)
 \openout2 = `chapter1.aux'.
 
 
@@ -655,200 +719,187 @@ Chapter 1.
 
 
 
-] <smart_home_2.png, id=49, 598.3956pt x 394.1124pt>
-File: smart_home_2.png Graphic file (type png)
- <use smart_home_2.png>
-Package pdftex.def Info: smart_home_2.png used on input line 36.
-(pdftex.def)             Requested size: 438.93436pt x 289.07999pt.
-
-[2] [3 <./smart_home_2.png>] [4]) [5]
+] [2] [3]) [4]
 \openout2 = `background.aux'.
 
  (./background.tex
 Chapter 2.
-<transcript_anology.pdf, id=65, 239.89626pt x 90.3375pt>
-File: transcript_anology.pdf Graphic file (type pdf)
-
-<use transcript_anology.pdf>
-Package pdftex.def Info: transcript_anology.pdf used on input line 13.
-(pdftex.def)             Requested size: 216.81pt x 81.64484pt.
- [6
+[5
 
 
 
- <./transcript_anology.pdf>] [7] [8] [9]
-[10] <iot_architecture.png, id=97, 519.3804pt x 399.894pt>
-File: iot_architecture.png Graphic file (type png)
-
-<use iot_architecture.png>
-Package pdftex.def Info: iot_architecture.png used on input line 95.
-(pdftex.def)             Requested size: 281.5866pt x 216.81pt.
- [11 <./iot_architecture.png>]
-<prov_dm_2.PNG, id=102, 634.5306pt x 428.802pt>
+] [6] [7] <prov_dm_2.PNG, id=63, 634.5306pt x 428.802pt>
 File: prov_dm_2.PNG Graphic file (type png)
  <use prov_dm_2.PNG>
-Package pdftex.def Info: prov_dm_2.PNG used on input line 121.
-(pdftex.def)             Requested size: 216.81pt x 146.51701pt.
- [12 <./prov_dm_2.PNG>] <prov_json_edit.png, id=107, 587.19376pt x 742.775pt>
-File: prov_json_edit.png Graphic file (type png)
-
-<use prov_json_edit.png>
-Package pdftex.def Info: prov_json_edit.png used on input line 270.
-(pdftex.def)             Requested size: 325.66344pt x 411.93877pt.
+Package pdftex.def Info: prov_dm_2.PNG used on input line 92.
+(pdftex.def)             Requested size: 323.76787pt x 218.8039pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [13] [14 <./prov_json_edit.png>]
+[8]) [9 <./prov_dm_2.PNG>]
 \openout2 = `chapter2.aux'.
 
  (./chapter2.tex
 Chapter 3.
-[15
+[10
 
 
 
-] [16] [17] [18] [19] [20] [21] [22] [23]
+] [11] [12] [13] [14] [15] [16] [17]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [24] [25] [26]) [27]
-\openout2 = `chapter3.aux'.
-
-
-(./chapter3.tex
-Chapter 4.
-[28
-
-
-
-] [29]
-Overfull \hbox (30.24094pt too wide) in paragraph at lines 226--227
-[]\OT1/cmr/m/n/12 Adopting prove-nance on-tol-ogy to IoT, we rep-re-sent de-vic
-e in-for-ma-tion as agents (prov:agents),
+ [18]
+Overfull \hbox (6.08844pt too wide) in paragraph at lines 93--94
+\OT1/cmr/m/n/12 con-tains 5 de-rived nodes(cprov:cProcess, cprov:Resource, cPro
+v:Transition, cprov:cResource,
  []
 
-<prov_sensor_10.PNG, id=163, 873.5034pt x 494.3268pt>
-File: prov_sensor_10.PNG Graphic file (type png)
- <use prov_sensor_10.PNG>
-Package pdftex.def Info: prov_sensor_10.PNG used on input line 242.
-(pdftex.def)             Requested size: 462.52756pt x 261.75058pt.
+[19] [20]) [21]
+\openout2 = `chapter3.aux'.
+
+ (./chapter3.tex
+Chapter 4.
+[22
+
+
+
+] [23] [24] <prov_sensor_v3.pdf, id=123, 291.0875pt x 158.5925pt>
+File: prov_sensor_v3.pdf Graphic file (type pdf)
+
+<use prov_sensor_v3.pdf>
+Package pdftex.def Info: prov_sensor_v3.pdf used on input line 104.
+(pdftex.def)             Requested size: 323.76787pt x 176.40997pt.
+ [25]
+<sys_arc_3_6.pdf, id=128, 350.30875pt x 311.1625pt>
+File: sys_arc_3_6.pdf Graphic file (type pdf)
+ <use sys_arc_3_6.pdf>
+Package pdftex.def Info: sys_arc_3_6.pdf used on input line 228.
+(pdftex.def)             Requested size: 323.76787pt x 287.60715pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[26 <./prov_sensor_v3.pdf>] [27 <./sys_arc_3_6.pdf>]
+<system_implementation_v4.pdf, id=209, 533.995pt x 161.60374pt>
+File: system_implementation_v4.pdf Graphic file (type pdf)
 
-LaTeX Warning: Reference `Prov_sensor_alg' on page 30 undefined on input line 2
-65.
-
-[30] [31 <./prov_sensor_10.PNG>] [32]
-<system_architecture.png, id=178, 603.2136pt x 272.217pt>
-File: system_architecture.png Graphic file (type png)
-
-<use system_architecture.png>
-Package pdftex.def Info: system_architecture.png used on input line 366.
-(pdftex.def)             Requested size: 462.52756pt x 208.73544pt.
- <neo4j.png, id=179, 990.70125pt x 700.6175pt>
-File: neo4j.png Graphic file (type png)
-
-<use neo4j.png>
-Package pdftex.def Info: neo4j.png used on input line 375.
-(pdftex.def)             Requested size: 462.52756pt x 327.09871pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[33 <./system_architecture.png>] [34 <./neo4j.png>]
-<result.pdf, id=189, 522.67458pt x 399.55524pt>
-File: result.pdf Graphic file (type pdf)
- <use result.pdf>
-Package pdftex.def Info: result.pdf used on input line 424.
-(pdftex.def)             Requested size: 462.52756pt x 353.585pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) [35] [36 <./result.pdf>]
+<use system_implementation_v4.pdf>
+Package pdftex.def Info: system_implementation_v4.pdf used on input line 255.
+(pdftex.def)             Requested size: 323.76787pt x 97.98633pt.
+) [28 <./system_implementation_v4.pdf>]
 \openout2 = `chapter4.aux'.
 
- (./chapter4.tex)
+
+(./chapter4.tex
+Chapter 5.
+[29
+
+
+
+] [30]) [31]
 \openout2 = `chapter5.aux'.
 
  (./chapter5.tex
-Chapter 5.
-[37
+Chapter 6.
+
+LaTeX Warning: Citation `jeep_vulnerabilty' on page 32 undefined on input line 
+12.
+
+[32
 
 
 
+] [33]
 
-
-] [38] [39] [40] <picture13.pdf, id=244, 366.36874pt x 308.15125pt>
-File: picture13.pdf Graphic file (type pdf)
-
-<use picture13.pdf>
-Package pdftex.def Info: picture13.pdf used on input line 164.
-(pdftex.def)             Requested size: 361.34999pt x 303.94688pt.
+LaTeX Warning: Reference `prov_vector' on page 34 undefined on input line 28.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[41] [42 <./picture13.pdf>] <vector6.pdf, id=359, 1261.71375pt x 663.47874pt>
-File: vector6.pdf Graphic file (type pdf)
 
-<use vector6.pdf>
-Package pdftex.def Info: vector6.pdf used on input line 229.
-(pdftex.def)             Requested size: 462.52756pt x 243.22566pt.
- [43 <./vector6.pdf>] [44] [45] [46] [47] [48]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Warning: Text page 49 contains only floats.
-
-[49] <foo.pdf, id=487, 508.46524pt x 399.55524pt>
-File: foo.pdf Graphic file (type pdf)
- <use foo.pdf>
-Package pdftex.def Info: foo.pdf used on input line 657.
-(pdftex.def)             Requested size: 361.34999pt x 283.96054pt.
- [50 <./foo.pdf>] [51]) [52]
+[34] [35] [36]) [37]
 \openout2 = `chapter6.aux'.
 
  (./chapter6.tex
-Chapter 6.
+Chapter 7.
+[38
 
-Overfull \hbox (3.28568pt too wide) in paragraph at lines 17--18
-[]\OT1/cmr/m/n/12 Securing Prove-nance: Proper en-cryp-tion and au-then-ti-ca-t
-ion tech-niques [[]] are needed
+
+
+] <foo.pdf, id=261, 508.46524pt x 399.55524pt>
+File: foo.pdf Graphic file (type pdf)
+ <use foo.pdf>
+Package pdftex.def Info: foo.pdf used on input line 23.
+(pdftex.def)             Requested size: 323.76787pt x 254.42805pt.
+ [39 <./foo.pdf>] [40]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 58.
+
+
+Overfull \hbox (6.78426pt too wide) in paragraph at lines 62--75
+ [][] 
  []
 
-) [53
+<roc_curve_0.pdf, id=298, 361.35pt x 361.35pt>
+File: roc_curve_0.pdf Graphic file (type pdf)
+ <use roc_curve_0.pdf>
+Package pdftex.def Info: roc_curve_0.pdf used on input line 138.
+(pdftex.def)             Requested size: 138.75967pt x 138.75902pt.
+
+<roc_curve_1.pdf, id=299, 361.35pt x 361.35pt>
+File: roc_curve_1.pdf Graphic file (type pdf)
+ <use roc_curve_1.pdf>
+Package pdftex.def Info: roc_curve_1.pdf used on input line 140.
+(pdftex.def)             Requested size: 138.75967pt x 138.75902pt.
+
+<roc_curve_2.pdf, id=300, 361.35pt x 361.35pt>
+File: roc_curve_2.pdf Graphic file (type pdf)
+ <use roc_curve_2.pdf>
+Package pdftex.def Info: roc_curve_2.pdf used on input line 142.
+(pdftex.def)             Requested size: 138.75967pt x 138.75902pt.
+ [41]
+[42]) [43 <./roc_curve_0.pdf> <./roc_curve_1.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./roc_curve_1.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./roc_curve_2.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./roc_curve_2.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+>]
+\openout2 = `chapter7.aux'.
+
+ (./chapter7.tex) [44
 
 
-
-] (./thesis.bbl [54
+] (./thesis.bbl [45
 
 
 ]
 Missing character: There is no â in font cmti12!
 Missing character: There is no € in font cmti12!
 Missing character: There is no ” in font cmti12!
- [55] [56] [57] [58] [59]
-Underfull \hbox (badness 10000) in paragraph at lines 346--353
-[]\OT1/cmr/m/n/12 Mark Stanislav.  Hack-ing iot: A case study on baby mon-i-
+
+Underfull \hbox (badness 2951) in paragraph at lines 102--107
+[]\OT1/cmr/m/n/12 Nicolas Fal-liere, Liam O Murchu, and Eric Chien.  W32.stuxne
+t dossier.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--353
-\OT1/cmr/m/n/12 tor ex-po-sures and vul-ner-a-bil-i-ties.  $\OT1/cmtt/m/n/12 ht
-tps : / / www . rapid7 . com / docs /
+Underfull \hbox (badness 10000) in paragraph at lines 102--107
+\OT1/cmtt/m/n/12 https : / / www . symantec . com / content / en / us / enterpr
+ise / media / security _
  []
 
-
-Overfull \hbox (5.05019pt too wide) in paragraph at lines 346--353
-\OT1/cmtt/m/n/12 Hacking-[]IoT-[]A-[]Case-[]Study-[]on-[]Baby-[]Monitor-[]Expos
-ures-[]and-[]Vulnerabilities .
- []
-
-[60]) [61] (./thesis.aux (./acknowl.aux) (./preface.aux) (./abstract.aux)
-(./null.aux) (./chapter1.aux) (./background.aux) (./chapter2.aux)
-(./chapter3.aux) (./chapter4.aux) (./chapter5.aux) (./chapter6.aux))
+[46] [47] [48] [49] [50] [51]) [52] (./thesis.aux (./acknowl.aux)
+(./preface.aux) (./abstract.aux) (./null.aux) (./chapter1.aux)
+(./background.aux) (./chapter2.aux) (./chapter3.aux) (./chapter4.aux)
+(./chapter5.aux) (./chapter6.aux) (./chapter7.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -857,13 +908,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13349 strings out of 493014
- 259476 string characters out of 6133351
- 313942 words of memory out of 5000000
- 16527 multiletter control sequences out of 15000+600000
+ 14602 strings out of 493014
+ 281792 string characters out of 6133351
+ 338746 words of memory out of 5000000
+ 17764 multiletter control sequences out of 15000+600000
  12453 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,54p,2419b,307s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,10n,54p,2419b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
@@ -871,18 +922,17 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
 sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
 /local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/lo
-cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (72 pages, 1552176 bytes).
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on thesis.pdf (62 pages, 425191 bytes).
 PDF statistics:
- 607 PDF objects out of 1000 (max. 8388607)
- 346 compressed objects within 4 object streams
+ 470 PDF objects out of 1000 (max. 8388607)
+ 261 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

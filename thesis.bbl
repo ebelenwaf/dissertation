@@ -1,21 +1,23 @@
 \begin{thebibliography}{10}
 
 \bibitem{prov_dm}
-{PROV}-{DM}: {The} {PROV} {Data} {Model}.
-\newblock \url{https://www.w3.org/TR/prov-dm/}.
+{PROV}-{DM}: {The} {PROV} {Data} {Model}, April 2013.
 \newblock Accessed: 2016-10-01.
 
-\bibitem{prov_json}
-{PROV}-{JSON}: {The} {PROV} {Data} {Model}.
-\newblock \url{http://www.w3.org/Submission/2013/SUBM-prov-json-20130424}, Apr
-  2013.
-\newblock Accessed: 2016-10-01.
+\bibitem{babeltrace}
+Babeltrace.
+\newblock \url{http://diamon.org/babeltrace/}, 2018.
 
-\bibitem{compressing_graph}
-Micah Adler and Michael Mitzenmacher.
-\newblock Towards compressing web graphs.
-\newblock In {\em Proceedings of the Data Compression Conference}, DCC '01,
-  pages 203--, Washington, DC, USA, 2001. IEEE Computer Society.
+\bibitem{barectf}
+barectf.
+\newblock \url{https://github.com/efficios/barectf}, 2018.
+
+\bibitem{ctf}
+Ctf.
+\newblock \url{http://diamon.org/ctf/}, 2018.
+
+\bibitem{peterbilt}
+Peterbilt dataset, 2018.
 
 \bibitem{Ali:2013:PPL:2569433.2569893}
 Mufajjul Ali and Luc Moreau.
@@ -34,16 +36,6 @@ Ilkay Altintas, Oscar Barney, and Efrat Jaeger-Frank.
   {Science}, pages 118--132. Springer Berlin Heidelberg, May 2006.
 \newblock DOI: 10.1007/11890850\_14.
 
-\bibitem{barcena2015insecurity}
-Mario~Ballano Barcena and Candid Wueest.
-\newblock Insecurity in the internet of things.
-
-\bibitem{Bates2014LinuxPM}
-Adam Bates, Kevin R~B Butler, and Thomas Moyer.
-\newblock Linux provenance modules: Secure provenance collection for the linux
-  kernel.
-\newblock 2014.
-
 \bibitem{Bates:2015:TOY:2814579.2814586}
 Adam Bates, Kevin R.~B. Butler, and Thomas Moyer.
 \newblock Take only what you need: Leveraging mandatory access control policy
@@ -60,6 +52,12 @@ Adam Bates, Ben Mood, Masoud Valafar, and Kevin Butler.
   {Application} {Security} and {Privacy}}, {CODASPY} '13, pages 277--284, New
   York, NY, USA, 2013. ACM.
 
+\bibitem{190900}
+Adam Bates, Dave~(Jing) Tian, Kevin~R.B. Butler, and Thomas Moyer.
+\newblock Trustworthy whole-system provenance for the linux kernel.
+\newblock In {\em 24th {USENIX} Security Symposium ({USENIX} Security 15)},
+  pages 319--334, Washington, D.C., 2015. {USENIX} Association.
+
 \bibitem{bates_trustworthy_2015}
 Adam Bates, Dave~Jing Tian, Kevin~RB Butler, and Thomas Moyer.
 \newblock Trustworthy whole-system provenance for the linux kernel.
@@ -72,12 +70,13 @@ Elisa Bertino.
   pages 17--25.
 \newblock Springer International Publishing, Cham, 2015.
 
-\bibitem{braun2006issues}
-Uri Braun, Simson Garfinkel, David~A Holland, Kiran-Kumar Muniswamy-Reddy, and
-  Margo~I Seltzer.
+\bibitem{issue_provenance}
+Uri Braun, Simson Garfinkel, David~A. Holland, Kiran-Kumar Muniswamy-Reddy, and
+  Margo~I. Seltzer.
 \newblock Issues in automatic provenance collection.
-\newblock In {\em International Provenance and Annotation Workshop}, pages
-  171--183. Springer, 2006.
+\newblock In Luc Moreau and Ian Foster, editors, {\em Provenance and Annotation
+  of Data}, pages 171--183, Berlin, Heidelberg, 2006. Springer Berlin
+  Heidelberg.
 
 \bibitem{buneman_why_2001}
 Peter Buneman, Sanjeev Khanna, and Tan Wang-Chiew.
@@ -87,33 +86,32 @@ Peter Buneman, Sanjeev Khanna, and Tan Wang-Chiew.
   {Science}, pages 316--330. Springer Berlin Heidelberg, January 2001.
 \newblock DOI: 10.1007/3-540-44503-X\_20.
 
-\bibitem{chakrabarti2004autopart}
-Deepayan Chakrabarti.
-\newblock Autopart: Parameter-free graph partitioning and outlier detection.
-\newblock In {\em European Conference on Principles of Data Mining and
-  Knowledge Discovery}, pages 112--124. Springer, 2004.
-
 \bibitem{cheney_provenance_2009}
 James Cheney, Laura Chiticariu, and Wang-Chiew Tan.
 \newblock Provenance in {Databases}: {Why}, {How}, and {Where}.
 \newblock {\em Found. Trends databases}, 1(4):379--474, April 2009.
 
-\bibitem{dave}
-Dave Evans.
-\newblock The internet of things how the next evolution of the internet is
-  changing everything.
-\newblock
-  \url{https://www.cisco.com/c/dam/en_us/about/ac79/docs/innov/IoT_IBSG_0411FINAL.pdf},
-  Apr 2011.
-\newblock Accessed: 2016-10-01.
+\bibitem{Fadolalkarim}
+Daren Fadolalkarim, Asmaa Sallam, and Elisa Bertino.
+\newblock Pandde: Provenance-based anomaly detection of data exfiltration.
+\newblock In {\em Proceedings of the Sixth ACM Conference on Data and
+  Application Security and Privacy}, CODASPY '16, pages 267--276, New York, NY,
+  USA, 2016. ACM.
 
-\bibitem{chimera}
-Ian~T. Foster, Jens-S. V\"{o}ckler, Michael Wilde, and Yong Zhao.
-\newblock Chimera: Avirtual data system for representing, querying, and
-  automating data derivation.
-\newblock In {\em Proceedings of the 14th International Conference on
-  Scientific and Statistical Database Management}, SSDBM '02, pages 37--46,
-  Washington, DC, USA, 2002. IEEE Computer Society.
+\bibitem{stuxnet}
+Nicolas Falliere, Liam~O Murchu, and Eric Chien.
+\newblock W32.stuxnet dossier.
+\newblock
+  \url{https://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/w32_stuxnet_dossier.pdf},
+  2011.
+
+\bibitem{197137}
+Earlence Fernandes, Justin Paupore, Amir Rahmati, Daniel Simionato, Mauro
+  Conti, and Atul Prakash.
+\newblock Flowfence: Practical data protection for emerging iot application
+  frameworks.
+\newblock In {\em 25th {USENIX} Security Symposium ({USENIX} Security 16)},
+  pages 531--548, Austin, TX, 2016. {USENIX} Association.
 
 \bibitem{gessiou_towards_2012}
 Eleni Gessiou, Vasilis Pappas, Elias Athanasopoulos, Angelos~D. Keromytis, and
@@ -138,7 +136,7 @@ Boris Glavic, Kyumars~Sheykh Esmaili, Peter~M. Fischer, and Nesime Tatbul.
 \newblock In {\em Proceedings of the 1st {Workshop} on {Data} {Streams} and
   {Event} {Processing} ({DSEP}) collocated with {BTW}}. 2011.
 
-\bibitem{jeep_vulnerabilty}
+\bibitem{jeep_vulnerability}
 Andy Greenberg.
 \newblock The jeep hackers are back to prove car hacking can get much worse.
 \newblock 2015.
@@ -148,6 +146,20 @@ Paul Groth, Simon Miles, and Luc Moreau.
 \newblock {PReServ}: {Provenance} recording for services.
 \newblock In {\em In, UK e-Science All Hands Meeting 2005, Nottingham, UK,
   EPSRC}.
+
+\bibitem{hailesellasie_intrusion_2018}
+Muluken Hailesellasie and Syed~Rafay Hasan.
+\newblock Intrusion {Detection} in {PLC}-{Based} {Industrial} {Control}
+  {Systems} {Using} {Formal} {Verification} {Approach} in {Conjunction} with
+  {Graphs}.
+\newblock {\em Journal of Hardware and Systems Security}, 2(1):1--14, March
+  2018.
+
+\bibitem{203308}
+Xueyuan Han, Thomas Pasquier, Tanvi Ranjan, Mark Goldstein, and Margo Seltzer.
+\newblock Frappuccino: Fault-detection through runtime analysis of provenance.
+\newblock In {\em 9th {USENIX} Workshop on Hot Topics in Cloud Computing
+  (HotCloud 17)}, Santa Clara, CA, 2017. {USENIX} Association.
 
 \bibitem{Hasan:2009:CFP:1525908.1525909}
 Ragib Hasan, Radu Sion, and Marianne Winslett.
@@ -162,11 +174,6 @@ Ragib Hasan, Radu Sion, and Marianne Winslett.
 \newblock {\em Identification of outliers}.
 \newblock Monographs on applied probability and statistics. Chapman and Hall,
   London [u.a.], 1980.
-
-\bibitem{Hofmeyr}
-Steven~A. Hofmeyr, Stephanie Forrest, and Anil Somayaji.
-\newblock Intrusion detection using sequences of system calls.
-\newblock {\em J. Comput. Secur.}, 6(3):151--180, August 1998.
 
 \bibitem{hussain_secure_2014}
 Syed~Rafiul Hussain, Changda Wang, Salmin Sultana, and Elisa Bertino.
@@ -185,6 +192,14 @@ Yang Ji, Sangho Lee, and Wenke Lee.
   2016.
 \newblock DOI: 10.1007/978-3-319-40593-3\_1.
 
+\bibitem{jia2017contexiot}
+Yunhan~Jack Jia, Qi~Alfred Chen, Shiqi Wang, Amir Rahmati, Earlence Fernandes,
+  Z.~Morley Mao, and Atul Prakash.
+\newblock {ContexIoT: Towards Providing Contextual Integrity to Appified IoT
+  Platforms}.
+\newblock In {\em Proceedings of the 21st Network and Distributed System
+  Security Symposium (NDSS'17)}, San Diego, CA, February 2017.
+
 \bibitem{emc_bigdata}
 David~Reinsel John~Gantz.
 \newblock The digital universe in 2020: Big data, bigger digital shadows, and
@@ -194,11 +209,23 @@ David~Reinsel John~Gantz.
   apr 2012.
 \newblock Accessed: 2016-10-01.
 
+\bibitem{7504089}
+M.~J. Kang and J.~W. Kang.
+\newblock A novel intrusion detection method using deep neural network for
+  in-vehicle network security.
+\newblock In {\em 2016 IEEE 83rd Vehicular Technology Conference (VTC Spring)},
+  pages 1--5, May 2016.
+
 \bibitem{King:2003:BI:945445.945467}
 Samuel~T. King and Peter~M. Chen.
 \newblock Backtracking intrusions.
 \newblock In {\em Proceedings of the Nineteenth ACM Symposium on Operating
   Systems Principles}, SOSP '03, pages 223--236, New York, NY, USA, 2003. ACM.
+
+\bibitem{lampson_computer_2004}
+B.~W. Lampson.
+\newblock Computer security in the real world.
+\newblock {\em Computer}, 37(6):37--46, June 2004.
 
 \bibitem{LANGEVIN201594}
 Jared Langevin, Patrick~L. Gurian, and Jin Wen.
@@ -212,16 +239,11 @@ Aleksandar Lazarevic, Vipin Kumar, and Jaideep Srivastava.
 \newblock {\em Intrusion Detection: A Survey}, pages 19--78.
 \newblock Springer US, Boston, MA, 2005.
 
-\bibitem{grass}
-Kristen LeFevre and Evimaria Terzi.
-\newblock {\em GraSS: Graph Structure Summarization}, pages 454--465.
-
-\bibitem{liao_using_2002}
-Yihua Liao and V.~Rao Vemuri.
-\newblock Using {Text} {Categorization} {Techniques} for {Intrusion}
-  {Detection}.
-\newblock In {\em Proceedings of the 11th {USENIX} {Security} {Symposium}},
-  pages 51--59, Berkeley, CA, USA, 2002. USENIX Association.
+\bibitem{LI2014259}
+Jin Li, Xiaofeng Chen, Qiong Huang, and Duncan~S. Wong.
+\newblock Digital provenance: Enabling secure data forensics in cloud
+  computing.
+\newblock {\em Future Generation Computer Systems}, 37:259 -- 266, 2014.
 
 \bibitem{lim}
 Hyo-Sang Lim, Yang-Sae Moon, and Elisa Bertino.
@@ -238,19 +260,17 @@ Peter Macko and Margo Seltzer.
   Practice of Provenance}, TaPP'12, pages 6--6, Berkeley, CA, USA, 2012. USENIX
   Association.
 
-\bibitem{manzoor_fast_2016}
-Emaad Manzoor, Sadegh~M. Milajerdi, and Leman Akoglu.
-\newblock Fast {Memory}-efficient {Anomaly} {Detection} in {Streaming}
-  {Heterogeneous} {Graphs}.
-\newblock In {\em Proceedings of the 22Nd {ACM} {SIGKDD} {International}
-  {Conference} on {Knowledge} {Discovery} and {Data} {Mining}}, {KDD} '16,
-  pages 1035--1044, New York, NY, USA, 2016. ACM.
-
 \bibitem{Mattern}
 Friedemann Mattern and Christian Floerkemeier.
 \newblock From {Active} {Data} {Management} to {Event}-based {Systems} and
   {More}.
 \newblock pages 242--259. Springer-Verlag, Berlin, Heidelberg, 2010.
+
+\bibitem{Mukherjee2017APG}
+Subhojeet Mukherjee, Jacob Walker, Indrakshi Ray, and Jeremy Daily.
+\newblock A precedence graph-based approach to detect message injection attacks
+  in j1939 based networks.
+\newblock 2017.
 
 \bibitem{muniswamy_reddy}
 Kiran-Kumar Muniswamy-Reddy, David~A. Holland, Uri Braun, and Margo Seltzer.
@@ -259,13 +279,6 @@ Kiran-Kumar Muniswamy-Reddy, David~A. Holland, Uri Braun, and Margo Seltzer.
   {Annual} {Technical} {Conference}}, {ATEC} '06, pages 4--4, Berkeley, CA,
   USA, 2006. USENIX Association.
 
-\bibitem{Muniswamy-Reddy}
-Kiran-Kumar Muniswamy-Reddy, David~A. Holland, Uri Braun, and Margo Seltzer.
-\newblock Provenance-aware storage systems.
-\newblock In {\em Proceedings of the Annual Conference on USENIX '06 Annual
-  Technical Conference}, ATEC '06, pages 4--4, Berkeley, CA, USA, 2006. USENIX
-  Association.
-
 \bibitem{muniswamy_reddy_provenance_2010}
 Kiran-Kumar Muniswamy-Reddy, Peter Macko, and Margo Seltzer.
 \newblock Provenance for the {Cloud}.
@@ -273,45 +286,17 @@ Kiran-Kumar Muniswamy-Reddy, Peter Macko, and Margo Seltzer.
   {Storage} {Technologies}}, {FAST}'10, pages 15--14, Berkeley, CA, USA, 2010.
   USENIX Association.
 
-\bibitem{Navlakha}
-Saket Navlakha, Rajeev Rastogi, and Nisheeth Shrivastava.
-\newblock Graph summarization with bounded error.
-\newblock In {\em Proceedings of the 2008 ACM SIGMOD International Conference
-  on Management of Data}, SIGMOD '08, pages 419--432, New York, NY, USA, 2008.
-  ACM.
-
-\bibitem{Noble}
-Caleb~C. Noble and Diane~J. Cook.
-\newblock Graph-based anomaly detection.
-\newblock In {\em Proceedings of the Ninth ACM SIGKDD International Conference
-  on Knowledge Discovery and Data Mining}, KDD '03, pages 631--636, New York,
-  NY, USA, 2003. ACM.
-
-\bibitem{paiot}
-Ebelechukwu Nwafor, David Hill, Andre Campbell, and Gedare Bloom.
-\newblock Towards a provenance aware framework for internet of things devices.
-\newblock In {\em Proceedings of the 14th International Conference on
-  Ubiquitous Intelligence and Computing}, UIC '17, San Fransisco, CA, USA,
-  2017. IEEE Computer Society.
-
-\bibitem{Papadimitriou2010}
-Panagiotis Papadimitriou, Ali Dasdan, and Hector Garcia-Molina.
-\newblock Web graph similarity for anomaly detection.
-\newblock {\em Journal of Internet Services and Applications}, 1(1):19--30, May
-  2010.
+\bibitem{Otsuka}
+Satoshi Otsuka, Tasuku Ishigooka, Yukihiko Oishi, and Kazuyoshi Sasazawa.
+\newblock Can security: Cost-effective intrusion detection for real-time
+  control systems.
+\newblock In {\em SAE Technical Paper}, page~11, 2014.
 
 \bibitem{park_provenance-based_2012}
 J.~Park, D.~Nguyen, and R.~Sandhu.
 \newblock A provenance-based access control model.
 \newblock In {\em 2012 {Tenth} {Annual} {International} {Conference} on
   {Privacy}, {Security} and {Trust} ({PST})}, pages 137--144, July 2012.
-
-\bibitem{pasquier-socc2017}
-Thomas Pasquier, Xueyuan Han, Mark Goldstein, Thomas Moyer, David Eyers, Margo
-  Seltzer, and Jean Bacon.
-\newblock Practical whole-system provenance capture.
-\newblock In {\em Symposium on Cloud Computing (SoCC{\textquoteright}17)}. ACM,
-  ACM, 2017.
 
 \bibitem{hi_fi}
 Devin~J. Pohly, Stephen McLaughlin, Patrick McDaniel, and Kevin Butler.
@@ -330,26 +315,12 @@ Dan Raywood.
 \newblock Defcon: Thermostat control hacked to host ransomware.
 \newblock 2016.
 
-\bibitem{Smets2011TheOO}
-Koen Smets and Jilles Vreeken.
-\newblock The odd one out: Identifying and characterising anomalies.
-\newblock In {\em SDM}, 2011.
-
 \bibitem{story}
 R.~Spillane, R.~Sears, C.~Yalamanchili, S.~Gaikwad, M.~Chinni, and E.~Zadok.
 \newblock Story {Book}: {An} {Efficient} {Extensible} {Provenance} {Framework}.
 \newblock In {\em First {Workshop} on the {Theory} and {Practice} of
   {Provenance}}, {TAPP}'09, pages 11:1--11:10, Berkeley, CA, USA, 2009. USENIX
   Association.
-
-\bibitem{rapid7}
-Mark Stanislav.
-\newblock Hacking iot: A case study on baby monitor exposures and
-  vulnerabilities.
-\newblock
-  \url{https://www.rapid7.com/docs/Hacking-IoT-A-Case-Study-on-Baby-Monitor-Exposures-and-Vulnerabilities.pdf},
-  Sep 2015.
-\newblock Accessed: 2016-10-01.
 
 \bibitem{tariq_towards_2012}
 Dawood Tariq, Maisem Ali, and Ashish Gehani.
@@ -359,19 +330,51 @@ Dawood Tariq, Maisem Ali, and Ashish Gehani.
   {Practice} of {Provenance}}, {TaPP}'12, pages 16--16, Berkeley, CA, USA,
   2012. USENIX Association.
 
-\bibitem{Tian}
-Yuanyuan Tian, Richard~A. Hankins, and Jignesh~M. Patel.
-\newblock Efficient aggregation for graph summarization.
-\newblock In {\em Proceedings of the 2008 ACM SIGMOD International Conference
-  on Management of Data}, SIGMOD '08, pages 567--580, New York, NY, USA, 2008.
-  ACM.
-
 \bibitem{asiaccs12-vijayakumar}
 Hayawardh Vijayakumar, Joshua Schiffman, and Trent Jaeger.
 \newblock Integrity walls: Finding attack surfaces from mandatory access
   control policies.
 \newblock In {\em 7th ACM Symposium on Information, Computer, and
   Communications Security (ASIACCS)}, May 2012.
+
+\bibitem{7038199}
+C.~Wang, S.~R. Hussain, and E.~Bertino.
+\newblock Dictionary based secure provenance compression for wireless sensor
+  networks.
+\newblock {\em IEEE Transactions on Parallel and Distributed Systems},
+  27(2):405--418, Feb 2016.
+
+\bibitem{Wang2017FearAL}
+Qi~Wang, Wajih~Ul Hassan, Adam~J. Bates, and Carl Gunter.
+\newblock Fear and logging in the internet of things.
+\newblock 2017.
+
+\bibitem{Xie:2012:HAE:2396761.2398511}
+Yulai Xie, Dan Feng, Zhipeng Tan, Lei Chen, Kiran-Kumar Muniswamy-Reddy, Yan
+  Li, and Darrell~D.E. Long.
+\newblock A hybrid approach for efficient provenance storage.
+\newblock In {\em Proceedings of the 21st ACM International Conference on
+  Information and Knowledge Management}, CIKM '12, pages 1752--1756, New York,
+  NY, USA, 2012. ACM.
+
+\bibitem{Xie_yulani}
+Yulai Xie, Dan Feng, Zhipeng Tan, and Junzhe Zhou.
+\newblock Unifying intrusion detection and forensic analysis via provenance
+  awareness.
+\newblock {\em Future Gener. Comput. Syst.}, 61(C):26--36, August 2016.
+
+\bibitem{Xie:2016:UID:2936026.2936232}
+Yulai Xie, Dan Feng, Zhipeng Tan, and Junzhe Zhou.
+\newblock Unifying intrusion detection and forensic analysis via provenance
+  awareness.
+\newblock {\em Future Gener. Comput. Syst.}, 61(C):26--36, August 2016.
+
+\bibitem{xie11-tapp}
+Yulai Xie, Kiran-Kumar Muniswamy-Reddy, Darrell D.~E. Long, Ahmed Amer, Dan
+  Feng, and Zhipeng Tan.
+\newblock Compressing provenance graphs.
+\newblock In {\em 3rd USENIX Workshop on the Theory and Practice of
+  Provenance}, June 2011.
 
 \bibitem{Yoon}
 Man-Ki Yoon, Sibin Mohan, Jaesik Choi, Mihai Christodorescu, and Lui Sha.
@@ -380,11 +383,6 @@ Man-Ki Yoon, Sibin Mohan, Jaesik Choi, Mihai Christodorescu, and Lui Sha.
 \newblock In {\em Proceedings of the Second International Conference on
   Internet-of-Things Design and Implementation}, IoTDI '17, pages 191--196, New
   York, NY, USA, 2017. ACM.
-
-\bibitem{acsac}
-Robert~H'obbes' Zakon, editor.
-\newblock {\em 28th Annual Computer Security Applications Conference, {ACSAC}
-  2012, Orlando, FL, USA, 3-7 December 2012}. {ACM}, 2012.
 
 \bibitem{zawoadfecloud}
 Shams Zawoad and Ragib Hasan.

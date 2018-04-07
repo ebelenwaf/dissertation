@@ -1,51 +1,22 @@
-% chap7.tex (Bogus chapter)
+% chap6.tex (Significance and Future Work)
 
-\chapter{Extra Chapter}
 
-This is an extra chapter added into Patrick's thesis to illustrate
-the use of figures and tables and the inclusion of a pdf file.
+\section{Summary}
+This dissertation focuses on the integration of data provenance within CPS ecosystem for provenance-based anomaly detection  To achieve this, we developed a provenance-aware framework that collects the information flow of data dependencies within a CPS device in a non-intrusive fashion. Our approach leverages the PROV-DM ontology for portability and uses a software-based tracing mechanism to collect provenance without requiring operating system intervention. We address the issue of storage overhead by proposing a data pruning heuristic at the trace level which eliminates irrelevant data not required by our provenance intrusion detection system. 
 
-First the tables are shown as Table~\ref{smalltable} and
-Table~\ref{smalltable2}. Then the
-figure is shown in Figure~\ref{autom}.
 
-\begin{table}
-\begin{center}
-\caption[A long caption]{A long caption.
-In this table example, we have a very
-long caption that does not fit on one line. The text of the
-caption should line up on the left. The text inside the square
-brackets will be included in the List of Tables.}
-\label{smalltable}
-\vspace{0.2in}
-\begin{tabular}{|c|c|c|}\hline
-2 & 3 & 300 \\ \hline
-3 & 4 & 400 \\ \hline
-4 & 5 & 500 \\ \hline
-5 & 6 & 600 \\ \hline
-\end{tabular}
-\end{center}
-\end{table}
 
-\begin{table}
-\begin{center}
-\caption{Example of a table}
-\label{smalltable2}
-\vspace{0.2in}
-\begin{tabular}{|c|c|c|}\hline
-2 & 3 & 300 \\ \hline
-3 & 4 & 400 \\ \hline
-4 & 5 & 500 \\ \hline
-5 & 6 & 600 \\ \hline
-\end{tabular}
-\end{center}
-\end{table}
+\section{Future Research Direction}
 
-\begin{figure}
-\begin{center}
-\resizebox{\textwidth}{!}
-  {\includegraphics{automin1.pdf}}
-\end{center}
-\caption{A simple finite automaton}
-\label{autom}
-\end{figure}
+Some of the proposed future work are listed as follows:
+
+\begin{itemize}
+
+\item Provenance collection raises privacy issues. How do we ensure that the vast amount of data collected is not invasive to the privacy of device users. Privacy preserving techniques can be used to anonymize provenance data.
+
+\item Proper encryption and authentication techniques \cite{Hasan:2009:CFP:1525908.1525909} are needed to ensure the confidentiality, and integrity of provenance data.
+
+\item Further modification of IDS algorithm to include detection of anomalous instances in real-time. 
+
+\end{itemize}
+
