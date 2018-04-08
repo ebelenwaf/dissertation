@@ -7,37 +7,34 @@
 \noindent {\bf Chapter}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Research Contribution}{3}
-\contentsline {section}{\numberline {1.2}Organization of Dissertation}{4}
+\contentsline {section}{\numberline {1.2}Organization of Dissertation}{3}
 \contentsline {chapter}{\numberline {2}Background}{5}
 \contentsline {subsection}{\numberline {2.0.1}Anomaly Detection}{5}
 \contentsline {section}{\numberline {2.1}Data Provenance}{6}
-\contentsline {section}{\numberline {2.2}Comparing Provenance with Log Data and Metadata}{7}
-\contentsline {subsection}{\numberline {2.2.1}Provenance and Metadata}{7}
-\contentsline {subsection}{\numberline {2.2.2}Provenance and Log data}{8}
-\contentsline {section}{\numberline {2.3}Model for representing data provenance}{8}
-\contentsline {chapter}{\numberline {3}Literature Review}{10}
-\contentsline {section}{\numberline {3.1}Data Provenance in Cyber-physical Systems}{10}
-\contentsline {section}{\numberline {3.2}Provenance-based Pruning}{19}
-\contentsline {subsection}{\numberline {3.2.1}Provenance-based IDS}{21}
-\contentsline {chapter}{\numberline {4}Provenance-Aware CPS (Prov-CPS)}{22}
-\contentsline {section}{\numberline {4.1}Prov-CPS Design}{22}
-\contentsline {section}{\numberline {4.2}Trace-based Provenance Data Model}{23}
-\contentsline {subsubsection}{Example: Thermostat}{25}
-\contentsline {section}{\numberline {4.3}Prov-CPS Architecture}{25}
-\contentsline {section}{\numberline {4.4}System Implementation}{26}
-\contentsline {chapter}{\numberline {5}Storage Optimization for Trace Data}{29}
-\contentsline {section}{\numberline {5.1}Introduction}{29}
-\contentsline {section}{\numberline {5.2}Types of Provenance Pruning}{30}
-\contentsline {section}{\numberline {5.3}Pruning in Prov-CPS}{31}
-\contentsline {chapter}{\numberline {6}Anomaly Detection using Provenance Graphs}{32}
-\contentsline {section}{\numberline {6.1}Provenance-Based Anomaly Detection}{32}
-\contentsline {section}{\numberline {6.2}Introduction}{32}
-\contentsline {subsection}{\numberline {6.2.1}Graph Similarity}{33}
-\contentsline {subsection}{\numberline {6.2.2}Anomaly Detection on Provenance Graphs}{34}
-\contentsline {subsubsection}{Defining Anomaly Threshold}{37}
-\contentsline {chapter}{\numberline {7}Experiment}{38}
-\contentsline {section}{\numberline {7.1}Climate Control System}{38}
-\contentsline {section}{\numberline {7.2}J1939 Network Bus }{39}
-\contentsline {section}{\numberline {7.3}Summary}{44}
-\contentsline {section}{\numberline {7.4}Future Research Direction}{44}
-\contentsline {chapter}{References}{45}
+\contentsline {section}{\numberline {2.2}Model for representing data provenance}{7}
+\contentsline {chapter}{\numberline {3}Literature Review}{9}
+\contentsline {section}{\numberline {3.1}Data Provenance in Cyber-physical Systems}{9}
+\contentsline {section}{\numberline {3.2}Provenance-based Pruning}{17}
+\contentsline {subsection}{\numberline {3.2.1}Provenance-based IDS}{19}
+\contentsline {chapter}{\numberline {4}Provenance-Aware CPS (Prov-CPS)}{21}
+\contentsline {section}{\numberline {4.1}Prov-CPS Design}{21}
+\contentsline {section}{\numberline {4.2}Trace-based Provenance Data Model}{22}
+\contentsline {subsubsection}{Example: Thermostat}{24}
+\contentsline {section}{\numberline {4.3}Prov-CPS Architecture}{24}
+\contentsline {section}{\numberline {4.4}System Implementation}{25}
+\contentsline {chapter}{\numberline {5}Storage Optimization for Trace Data}{28}
+\contentsline {section}{\numberline {5.1}Introduction}{28}
+\contentsline {section}{\numberline {5.2}Types of Provenance Pruning}{29}
+\contentsline {section}{\numberline {5.3}Pruning in Prov-CPS}{30}
+\contentsline {chapter}{\numberline {6}Anomaly Detection using Provenance Graphs}{31}
+\contentsline {section}{\numberline {6.1}Provenance-Based Anomaly Detection}{31}
+\contentsline {subsection}{\numberline {6.1.1}Graph Similarity}{32}
+\contentsline {subsection}{\numberline {6.1.2}Anomaly Detection on Provenance Graphs}{32}
+\contentsline {subsubsection}{Defining Anomaly Threshold}{35}
+\contentsline {chapter}{\numberline {7}Experiment}{36}
+\contentsline {section}{\numberline {7.1}Climate Control System}{36}
+\contentsline {section}{\numberline {7.2}J1939 Network Bus }{37}
+\contentsline {chapter}{\numberline {8}Conclusion and Future Directions}{42}
+\contentsline {section}{\numberline {8.1}Summary}{42}
+\contentsline {section}{\numberline {8.2}Future Research Direction}{42}
+\contentsline {chapter}{References}{44}

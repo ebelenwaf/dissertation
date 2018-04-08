@@ -15,6 +15,8 @@ A level-1 auxiliary file: chapter6.aux
 A level-1 auxiliary file: chapter7.aux
 The style file: plain.bst
 Database file #1: refrences.bib
+Warning--string name "april" is undefined
+--line 312 of file refrences.bib
 Warning--I didn't find a database entry for "jeep_vulnerabilty"
 Warning--to sort, need author or key in prov_dm
 Warning--to sort, need author or key in barectf
@@ -22,53 +24,52 @@ Warning--to sort, need author or key in ctf
 Warning--to sort, need author or key in babeltrace
 Warning--to sort, need author or key in peterbilt
 Warning--can't use both author and editor fields in Bertino2015
-Warning--empty publisher in glavic_case_2011
 Warning--empty journal in jeep_vulnerability
 Warning--empty year in groth
 Warning--can't use both author and editor fields in Lazarevic2005
-Warning--empty booktitle in Mattern
 Warning--empty booktitle in Mukherjee2017APG
+Warning--empty booktitle in Oinn2004TavernaAT
 Warning--empty journal in smart_thermostat
 Warning--empty booktitle in Wang2017FearAL
-You've used 59 entries,
+You've used 57 entries,
             2118 wiz_defined-function locations,
-            865 strings with 16813 characters,
-and the built_in function-call counts, 23293 in all, are:
-= -- 2344
-> -- 1093
-< -- 34
-+ -- 435
-- -- 367
-* -- 1583
-:= -- 3620
-add.period$ -- 203
-call.type$ -- 59
-change.case$ -- 351
+            858 strings with 16635 characters,
+and the built_in function-call counts, 23144 in all, are:
+= -- 2320
+> -- 1120
+< -- 35
++ -- 444
+- -- 381
+* -- 1589
+:= -- 3592
+add.period$ -- 194
+call.type$ -- 57
+change.case$ -- 353
 chr.to.int$ -- 0
-cite$ -- 73
-duplicate$ -- 972
-empty$ -- 1842
-format.name$ -- 367
-if$ -- 5128
+cite$ -- 70
+duplicate$ -- 960
+empty$ -- 1799
+format.name$ -- 381
+if$ -- 5095
 int.to.chr$ -- 0
-int.to.str$ -- 59
-missing$ -- 56
-newline$ -- 297
-num.names$ -- 118
-pop$ -- 451
+int.to.str$ -- 57
+missing$ -- 55
+newline$ -- 285
+num.names$ -- 112
+pop$ -- 446
 preamble$ -- 1
-purify$ -- 296
+purify$ -- 300
 quote$ -- 0
-skip$ -- 714
+skip$ -- 717
 stack$ -- 0
-substring$ -- 1283
-swap$ -- 304
-text.length$ -- 34
+substring$ -- 1263
+swap$ -- 312
+text.length$ -- 35
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 228
-warning$ -- 14
-while$ -- 213
-width$ -- 61
-write$ -- 693
+type$ -- 220
+warning$ -- 13
+while$ -- 207
+width$ -- 59
+write$ -- 672
 (There were 15 warnings)

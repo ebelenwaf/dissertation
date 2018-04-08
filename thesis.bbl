@@ -19,14 +19,6 @@ Ctf.
 \bibitem{peterbilt}
 Peterbilt dataset, 2018.
 
-\bibitem{Ali:2013:PPL:2569433.2569893}
-Mufajjul Ali and Luc Moreau.
-\newblock A provenance-aware policy language (cprovl) and a data traceability
-  model (cprov) for the cloud.
-\newblock In {\em Proceedings of the 2013 International Conference on Cloud and
-  Green Computing}, CGC '13, pages 479--486, Washington, DC, USA, 2013. IEEE
-  Computer Society.
-
 \bibitem{altintas}
 Ilkay Altintas, Oscar Barney, and Efrat Jaeger-Frank.
 \newblock Provenance {Collection} {Support} in the {Kepler} {Scientific}
@@ -64,6 +56,11 @@ Adam Bates, Dave~Jing Tian, Kevin~RB Butler, and Thomas Moyer.
 \newblock In {\em 24th USENIX Security Symposium (USENIX Security 15)}, pages
   319--334, 2015.
 
+\bibitem{Bates2014LetSB}
+Adam~J. Bates, Kevin Butler, Andreas Haeberlen, Micah Sherr, and Wenchao Zhou.
+\newblock Let sdn be your eyes: Secure forensics in data center networks.
+\newblock In {\em Proceedings of the NDSS Symposium}, 2014.
+
 \bibitem{Bertino2015}
 Elisa Bertino.
 \newblock {\em Data Trustworthiness---Approaches and Research Challenges},
@@ -78,18 +75,12 @@ Uri Braun, Simson Garfinkel, David~A. Holland, Kiran-Kumar Muniswamy-Reddy, and
   of Data}, pages 171--183, Berlin, Heidelberg, 2006. Springer Berlin
   Heidelberg.
 
-\bibitem{buneman_why_2001}
-Peter Buneman, Sanjeev Khanna, and Tan Wang-Chiew.
-\newblock Why and {Where}: {A} {Characterization} of {Data} {Provenance}.
-\newblock In Jan Van~den Bussche and Victor Vianu, editors, {\em Database
-  {Theory} — {ICDT} 2001}, number 1973 in Lecture {Notes} in {Computer}
-  {Science}, pages 316--330. Springer Berlin Heidelberg, January 2001.
-\newblock DOI: 10.1007/3-540-44503-X\_20.
-
-\bibitem{cheney_provenance_2009}
-James Cheney, Laura Chiticariu, and Wang-Chiew Tan.
-\newblock Provenance in {Databases}: {Why}, {How}, and {Where}.
-\newblock {\em Found. Trends databases}, 1(4):379--474, April 2009.
+\bibitem{Davidson:2008:PSW:1376616.1376772}
+Susan~B. Davidson and Juliana Freire.
+\newblock Provenance and scientific workflows: Challenges and opportunities.
+\newblock In {\em Proceedings of the 2008 ACM SIGMOD International Conference
+  on Management of Data}, SIGMOD '08, pages 1345--1350, New York, NY, USA,
+  2008. ACM.
 
 \bibitem{Fadolalkarim}
 Daren Fadolalkarim, Asmaa Sallam, and Elisa Bertino.
@@ -113,6 +104,14 @@ Earlence Fernandes, Justin Paupore, Amir Rahmati, Daniel Simionato, Mauro
 \newblock In {\em 25th {USENIX} Security Symposium ({USENIX} Security 16)},
   pages 531--548, Austin, TX, 2016. {USENIX} Association.
 
+\bibitem{chimera}
+Ian~T. Foster, Jens-S. V\"{o}ckler, Michael Wilde, and Yong Zhao.
+\newblock Chimera: Avirtual data system for representing, querying, and
+  automating data derivation.
+\newblock In {\em Proceedings of the 14th International Conference on
+  Scientific and Statistical Database Management}, SSDBM '02, pages 37--46,
+  Washington, DC, USA, 2002. IEEE Computer Society.
+
 \bibitem{gessiou_towards_2012}
 Eleni Gessiou, Vasilis Pappas, Elias Athanasopoulos, Angelos~D. Keromytis, and
   Sotiris Ioannidis.
@@ -129,12 +128,6 @@ Devarshi Ghoshal and Beth Plale.
 \newblock Provenance from {Log} {Files}: {A} {BigData} {Problem}.
 \newblock In {\em Proceedings of the {Joint} {EDBT}/{ICDT} 2013 {Workshops}},
   {EDBT} '13, pages 290--297, New York, NY, USA, 2013. ACM.
-
-\bibitem{glavic_case_2011}
-Boris Glavic, Kyumars~Sheykh Esmaili, Peter~M. Fischer, and Nesime Tatbul.
-\newblock The {Case} for {Fine}-{Grained} {Stream} {Provenance}.
-\newblock In {\em Proceedings of the 1st {Workshop} on {Data} {Streams} and
-  {Event} {Processing} ({DSEP}) collocated with {BTW}}. 2011.
 
 \bibitem{jeep_vulnerability}
 Andy Greenberg.
@@ -200,15 +193,6 @@ Yunhan~Jack Jia, Qi~Alfred Chen, Shiqi Wang, Amir Rahmati, Earlence Fernandes,
 \newblock In {\em Proceedings of the 21st Network and Distributed System
   Security Symposium (NDSS'17)}, San Diego, CA, February 2017.
 
-\bibitem{emc_bigdata}
-David~Reinsel John~Gantz.
-\newblock The digital universe in 2020: Big data, bigger digital shadows, and
-  biggest growth in the far east.
-\newblock
-  \url{https://www.emc.com/collateral/analyst-reports/idc-the-digital-universe-in-2020.pdf},
-  apr 2012.
-\newblock Accessed: 2016-10-01.
-
 \bibitem{7504089}
 M.~J. Kang and J.~W. Kang.
 \newblock A novel intrusion detection method using deep neural network for
@@ -253,18 +237,20 @@ Hyo-Sang Lim, Yang-Sae Moon, and Elisa Bertino.
   {Data} {Management} for {Sensor} {Networks}}, {DMSN} '10, pages 2--7, New
   York, NY, USA, 2010. ACM.
 
+\bibitem{Lu:2010:SPE:1755688.1755723}
+Rongxing Lu, Xiaodong Lin, Xiaohui Liang, and Xuemin~(Sherman) Shen.
+\newblock Secure provenance: The essential of bread and butter of data
+  forensics in cloud computing.
+\newblock In {\em Proceedings of the 5th ACM Symposium on Information, Computer
+  and Communications Security}, ASIACCS '10, pages 282--292, New York, NY, USA,
+  2010. ACM.
+
 \bibitem{_general-purpose_2012}
 Peter Macko and Margo Seltzer.
 \newblock A general-purpose provenance library.
 \newblock In {\em Proceedings of the 4th USENIX Conference on Theory and
   Practice of Provenance}, TaPP'12, pages 6--6, Berkeley, CA, USA, 2012. USENIX
   Association.
-
-\bibitem{Mattern}
-Friedemann Mattern and Christian Floerkemeier.
-\newblock From {Active} {Data} {Management} to {Event}-based {Systems} and
-  {More}.
-\newblock pages 242--259. Springer-Verlag, Berlin, Heidelberg, 2010.
 
 \bibitem{Mukherjee2017APG}
 Subhojeet Mukherjee, Jacob Walker, Indrakshi Ray, and Jeremy Daily.
@@ -286,17 +272,19 @@ Kiran-Kumar Muniswamy-Reddy, Peter Macko, and Margo Seltzer.
   {Storage} {Technologies}}, {FAST}'10, pages 15--14, Berkeley, CA, USA, 2010.
   USENIX Association.
 
+\bibitem{Oinn2004TavernaAT}
+Thomas~M. Oinn, Matthew Addis, Justin Ferris, Darren Marvin, Martin Senger,
+  R.~Mark Greenwood, Tim~J. Carver, Kevin Glover, Matthew~R. Pocock, Anil
+  Wipat, and Peter Li.
+\newblock Taverna: a tool for the composition and enactment of bioinformatics
+  workflows.
+\newblock volume 20 17, pages 3045--54, 2004.
+
 \bibitem{Otsuka}
 Satoshi Otsuka, Tasuku Ishigooka, Yukihiko Oishi, and Kazuyoshi Sasazawa.
 \newblock Can security: Cost-effective intrusion detection for real-time
   control systems.
 \newblock In {\em SAE Technical Paper}, page~11, 2014.
-
-\bibitem{park_provenance-based_2012}
-J.~Park, D.~Nguyen, and R.~Sandhu.
-\newblock A provenance-based access control model.
-\newblock In {\em 2012 {Tenth} {Annual} {International} {Conference} on
-  {Privacy}, {Security} and {Trust} ({PST})}, pages 137--144, July 2012.
 
 \bibitem{hi_fi}
 Devin~J. Pohly, Stephen McLaughlin, Patrick McDaniel, and Kevin Butler.
@@ -384,10 +372,11 @@ Man-Ki Yoon, Sibin Mohan, Jaesik Choi, Mihai Christodorescu, and Lui Sha.
   Internet-of-Things Design and Implementation}, IoTDI '17, pages 191--196, New
   York, NY, USA, 2017. ACM.
 
-\bibitem{zawoadfecloud}
-Shams Zawoad and Ragib Hasan.
-\newblock Fecloud: A trustworthy forensics-enabled cloud architecture.
-\newblock In {\em 11th Annual IFIP WG 11 International Conference on Digital
-  Forensics}, 2015.
+\bibitem{6542529}
+S.~Zawoad and R.~Hasan.
+\newblock I have the proof: Providing proofs of past data possession in cloud
+  forensics.
+\newblock In {\em 2012 International Conference on Cyber Security}, pages
+  75--82, Dec 2012.
 
 \end{thebibliography}

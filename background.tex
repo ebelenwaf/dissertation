@@ -1,6 +1,10 @@
 \chapter{Background}
 
-This chapter describes key concepts of data provenance, IoT characteristics, and provenance models. It outlines the tradeoffs that exists between provenance, log data and metadata. 
+In this chapter, we describe concepts such as anomaly detection and data provenance. 
+
+%\section{Cyber-Physical Systems}
+%CPS is the combination of computation and physical component 
+
 
 %\section{Internet of Things (IoT)}
 %There is no standard definition for IoT, however, researchers have tried to define the concept of connected ``things". The concept of IoT was proposed by Mark Weiser in the early 1990s \cite{Mattern} which represents a way in which the physical objects, ``things", can be connected to the digital world. Gubbi et al \cite{park_provenance-based_2012} defines the IoT as  an interconnection of sensing and actuating devices that allows data sharing across platforms through a centralized framework. We define (IoT) as follows:
@@ -46,29 +50,43 @@ The notion of what constitutes an anomaly is often domain specific. Hawkins defi
 Anomaly detection involves the use of rule-based, statistical, clustering or classification techniques to determine normal or anomalous data instances. The process of determining all anomalous instances in a given dataset or system is a complex task. A major challenge in anomaly detection is providing the right feature set from the data to use for detection. Another challenge exists in defining what constitutes as normal system behavior. Most anomaly detection using point based data often fail to include the dependencies that exist between data points.   
 
 \section{Data Provenance}
-The Oxford English dictionary defines provenance \cite{TCDP1999} as ``the place of origin or earliest known history of something". An example of provenance can be seen with a college transcript. A transcript is the provenance of a college degree because it outlines all of the courses satisfied in order to attain the degree.
 
+Provenance is defined as ``The place of origin or earliest known history of something"~\cite{TCDP1999}. However, provenance and lineage are used interchangeably to denote the origin of something and transformation(s) that occurred to it over time. The notion of provenance originates from the art world, where an art piece auctioned is accompanied by a paper trail that denotes the artwork's chain of custody. This trail allows a buyer to ascertain the authenticity of the artwork. Likewise in computing, provenance provides a holistic history of data transformations that occur on a data object from inception to its present state. 
 
-In the field of computing, data provenance, also known as  data lineage, can be defined as the history of all activities performed on entities from its creation to its current state. Cheney et al. \cite{cheney_provenance_2009} decribes provenance as the origin and history of data from its lifecycle. Buneman et al \cite{buneman_why_2001} describes provenance from a database perspective as the origin of data and the steps in which it is derived in the database system.  Provenance involves two granularity levels: fine-grained provenance and coarse-grained provenance. Fine-grained provenance \cite{glavic_case_2011} entails the collection of a detailed level of provenance. Coarse grained provenance, on the other hand, is a collection of a summarized version of provenance. Data provenance has immense applications and has been explored in the areas of scientific computing \cite{groth, altintas} to track how an experiments are produced, in business to determine the work-flow of  a process, and in computer security for forensic analysis and intrusion detection \cite{bates_towards_2013, muniswamy_reddy_provenance_2010, muniswamy_reddy} . 
-
-
-Provenance denotes the who, where and why of data \cite{cheney_provenance_2009}. An example of provenance for a software system is a web server's log file. This file contains metadata for various request and response time and the ip address of all host systems that requests information from the server. This log file identifies the data object (i.e. Web server), transformations that occurs on this object (e.g read write connections) and the state of the data object. Provenance data is represented as an acyclic graph which denotes casual relationship and dependencies between entities. 
-
-\par Provenance ensures trust and integrity of data \cite{Bertino2015}. It outlines causality and dependency between all objects involved in the system and allows for the verification of the source of data. Causality and dependency are used to determine the relationship between multiple objects. The relationship in which provenance denotes can in turn be used in digital forensics \cite{zawoadfecloud} to investigate the cause of a malicious attack and also in intrusion detection systems to further enhance the security of computing devices. 
- 
-
+Data provenance can ensure data integrity \cite{Bertino2015} and establish causality between data objects through information-flow tracking.
 Characteristic information provided by provenance include the who, where, when, and what of data transformation. \textbf{Who} identifies an actor responsible for a particular transformation of a data object. An example of ``who" in a CPS use case is a sensor, which is identified as the ultimate progenitor of values dervied from its sensor readings. \textbf{Where} provides the location of a transformation, for example a geolocation for the sensor. \textbf{When} associates time with a transformation, e.g., a timestamp obtained when a particular sensor reading was taken. \textbf{What} denotes the kind of transformation, such as a {\em read} operation or a {\em send} operation.
 
-\section{Comparing Provenance with Log Data and Metadata}
+Provenance has been applied to database management to track the derivation of a query, in forensic analysis to determine what activities led to a system event~\cite{Bates2014LetSB, Lu:2010:SPE:1755688.1755723, 6542529}, in scientific experimentation for experiment reproducibility~\cite{chimera, Davidson:2008:PSW:1376616.1376772, altintas, Oinn2004TavernaAT}, and in intrusion detection~\cite{Xie_yulani, Fadolalkarim, 203308} to detect what activity might be responsible for a malicious compromise.
 
-Provenance data, log data and metadata are key data concepts that often are used interchangeably. We try to address the differences and similarities between provenance data, metadata and log data.
-
-\subsection{Provenance and Metadata}
-Metadata and provenance are often considered related but yet subtle distinctions exist. Metadata contains descriptive information about data. Metadata can be considered as provenance when there exists a relationship between objects and they explain the transformation that occurs. In summary,  metadata and provenance are not the same, however an overlap exists. Metadata contains valuable  provenance information but not all metadata is provenance information. 
+The increase in applications of provenance has led to provenance collection systems to support them. For example, within the context of the operating system, PASS~\cite{muniswamy_reddy} and HiFi~\cite{hi_fi} are two Linux-based provenance collection systems developed to capture interactions between files and system call events. In the scientific community, Chimera~\cite{chimera} and myGrid~\cite{Oinn2004TavernaAT} collect provenance to support scientific experiment workflow reproducibility. Notably, most of these applications are tailored for large-scale, memory-intensive applications that are difficult to adapt directly to memory-constrained CPS devices.
 
 
-\subsection{Provenance and Log data}
-Log data contains information about the activities of an operating system or processes. Log data can be used as provenance because It contains data trace specific to an application domain. Log files might contain unrelated information such as error messages, warnings which might not be considered as provenance data. Provenance allows for specified collection of information that relates to the change of the internal state of an object. In summary, log data could provide insight to what provenance data to collect. 
+
+
+
+%The Oxford English dictionary defines provenance \cite{TCDP1999} as ``the place of origin or earliest known history of something". An example of provenance can be seen with a college transcript. A transcript is the provenance of a college degree because it outlines all of the courses satisfied in order to attain the degree.
+%
+%
+%In the field of computing, data provenance, also known as  data lineage, can be defined as the history of all activities performed on entities from its creation to its current state. Cheney et al. \cite{cheney_provenance_2009} decribes provenance as the origin and history of data from its lifecycle. Buneman et al \cite{buneman_why_2001} describes provenance from a database perspective as the origin of data and the steps in which it is derived in the database system.  Provenance involves two granularity levels: fine-grained provenance and coarse-grained provenance. Fine-grained provenance \cite{glavic_case_2011} entails the collection of a detailed level of provenance. Coarse grained provenance, on the other hand, is a collection of a summarized version of provenance. Data provenance has immense applications and has been explored in the areas of scientific computing \cite{groth, altintas} to track how an experiments are produced, in business to determine the work-flow of  a process, and in computer security for forensic analysis and intrusion detection \cite{bates_towards_2013, muniswamy_reddy_provenance_2010, muniswamy_reddy} . 
+%
+%
+%Provenance denotes the who, where and why of data \cite{cheney_provenance_2009}. An example of provenance for a software system is a web server's log file. This file contains metadata for various request and response time and the ip address of all host systems that requests information from the server. This log file identifies the data object (i.e. Web server), transformations that occurs on this object (e.g read write connections) and the state of the data object. Provenance data is represented as an acyclic graph which denotes casual relationship and dependencies between entities. 
+%
+%\par Provenance ensures trust and integrity of data \cite{Bertino2015}. It outlines causality and dependency between all objects involved in the system and allows for the verification of the source of data. Causality and dependency are used to determine the relationship between multiple objects. The relationship in which provenance denotes can in turn be used in digital forensics \cite{zawoadfecloud} to investigate the cause of a malicious attack and also in intrusion detection systems to further enhance the security of computing devices. 
+% 
+%
+%Characteristic information provided by provenance include the who, where, when, and what of data transformation. \textbf{Who} identifies an actor responsible for a particular transformation of a data object. An example of ``who" in a CPS use case is a sensor, which is identified as the ultimate progenitor of values dervied from its sensor readings. \textbf{Where} provides the location of a transformation, for example a geolocation for the sensor. \textbf{When} associates time with a transformation, e.g., a timestamp obtained when a particular sensor reading was taken. \textbf{What} denotes the kind of transformation, such as a {\em read} operation or a {\em send} operation.
+
+%\section{Comparing Provenance with Log Data and Metadata}
+%
+%Provenance data, log data and metadata are key data concepts that often are used interchangeably. We try to address the differences and similarities between provenance data, metadata and log data.
+%
+%\subsection{Provenance and Metadata}
+%Metadata and provenance are often considered related but yet subtle distinctions exist. Metadata contains descriptive information about data. Metadata can be considered as provenance when there exists a relationship between objects and they explain the transformation that occurs. In summary,  metadata and provenance are not the same, however an overlap exists. Metadata contains valuable  provenance information but not all metadata is provenance information. 
+%
+%
+%\subsection{Provenance and Log data}
+%Log data contains information about the activities of an operating system or processes. Log data can be used as provenance because It contains data trace specific to an application domain. Log files might contain unrelated information such as error messages, warnings which might not be considered as provenance data. Provenance allows for specified collection of information that relates to the change of the internal state of an object. In summary, log data could provide insight to what provenance data to collect. 
 
 
  
@@ -81,7 +99,10 @@ Log data contains information about the activities of an operating system or pro
 %In order to represent the right kind of provenance information, we need to satisfy the who, where, how, and what of data transformations. Provenance data can be represented using a provenance model in a modeling language such as, PROV\-DM which is represented in serialized form as a JSON object. This model displays the causal relationship of data objects. We propose a model that contains information such as sensor readings, device name, and device information. Details on the PROV-DM and PROV-JSON are outlined below.
 
 
-We adopt the Provenance Data Model (PROV-DM) \cite{prov_dm}, a W3C standard which conforms to Provenance Ontology (PROV-O) and is used to depict dependencies between entities, activities and agents (digital or physical). PROV-DM creates a common model that allows for interchange of provenance information between heterogeneous devices and is represented serialized in three formats:  XML, JSON and RDF. 
+To facilitate the creation of cross-platform provenance, an abstract representation of provenance typically uses a directed acyclic graph (DAG) in which vertices correspond to data and edges to interactions between data. A selection of vertex types and edge relationships constitutes a provenance model. The W3C standardizes a provenance ontology and a provenance data model, PROV-DM, to enable interchangeable provenance across heterogeneous systems. We adopt notions from the PROV-DM in the creation of Prov-CPS.
+
+
+%We adopt the Provenance Data Model (PROV-DM) \cite{prov_dm}, a W3C standard which conforms to Provenance Ontology (PROV-O) and is used to depict dependencies between entities, activities and agents (digital or physical). PROV-DM creates a common model that allows for interchange of provenance information between heterogeneous devices and is represented serialized in three formats:  XML, JSON and RDF. 
 
 \par PROV-DM contains two major components: types and relations.  Types can be entities, activities, or agents. An entity is a physical or digital object. An activity represents some form of action that occurs over time.  An agent takes ownership of an entity, or performs an activity. Figure \ref{prov_rep} illustrates the types and relations contained in PROV-DM and their graphical representation. Entities, activities and agents are represented as oval, rectangular and pentagonal shapes respectively. 
 

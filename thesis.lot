@@ -2,9 +2,10 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Concept mapping from trace-based provenance to PROV-DM.\relax }}{23}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Concept mapping from trace-based provenance to PROV-DM.\relax }}{22}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Trace data size as number of trace increases \relax }}{29}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Trace data size as number of trace increases \relax }}{28}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Cumulative results of anomaly detection true negative (TN), true positive (TP), false negative (FN), and false positive (FP) for no pruning, FIFO-based pruning, and prioritized pruning based on application priority values.\relax }}{42}
+\contentsline {table}{\numberline {7.1}{\ignorespaces Cumulative results of anomaly detection true negative (TN), true positive (TP), false negative (FN), and false positive (FP) for no pruning, FIFO-based pruning, and prioritized pruning based on application priority values.\relax }}{40}
+\addvspace {10\p@ }

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  7 APR 2018 19:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 APR 2018 08:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -728,51 +728,45 @@ Chapter 2.
 
 
 
-] [6] [7] <prov_dm_2.PNG, id=63, 634.5306pt x 428.802pt>
+] [6] <prov_dm_2.PNG, id=60, 634.5306pt x 428.802pt>
 File: prov_dm_2.PNG Graphic file (type png)
  <use prov_dm_2.PNG>
-Package pdftex.def Info: prov_dm_2.PNG used on input line 92.
+Package pdftex.def Info: prov_dm_2.PNG used on input line 113.
 (pdftex.def)             Requested size: 323.76787pt x 218.8039pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8]) [9 <./prov_dm_2.PNG>]
+[7]) [8 <./prov_dm_2.PNG>]
 \openout2 = `chapter2.aux'.
 
  (./chapter2.tex
 Chapter 3.
-[10
+[9
 
 
 
-] [11] [12] [13] [14] [15] [16] [17]
+] [10] [11] [12] [13] [14] [15] [16]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [18]
-Overfull \hbox (6.08844pt too wide) in paragraph at lines 93--94
-\OT1/cmr/m/n/12 con-tains 5 de-rived nodes(cprov:cProcess, cprov:Resource, cPro
-v:Transition, cprov:cResource,
- []
-
-[19] [20]) [21]
+ [17] [18] [19]) [20]
 \openout2 = `chapter3.aux'.
 
  (./chapter3.tex
 Chapter 4.
-[22
+[21
 
 
 
-] [23] [24] <prov_sensor_v3.pdf, id=123, 291.0875pt x 158.5925pt>
+] [22] [23] <prov_sensor_v3.pdf, id=120, 291.0875pt x 158.5925pt>
 File: prov_sensor_v3.pdf Graphic file (type pdf)
 
 <use prov_sensor_v3.pdf>
 Package pdftex.def Info: prov_sensor_v3.pdf used on input line 104.
 (pdftex.def)             Requested size: 323.76787pt x 176.40997pt.
- [25]
-<sys_arc_3_6.pdf, id=128, 350.30875pt x 311.1625pt>
+ [24]
+<sys_arc_3_6.pdf, id=125, 350.30875pt x 311.1625pt>
 File: sys_arc_3_6.pdf Graphic file (type pdf)
  <use sys_arc_3_6.pdf>
 Package pdftex.def Info: sys_arc_3_6.pdf used on input line 228.
@@ -781,61 +775,55 @@ Package pdftex.def Info: sys_arc_3_6.pdf used on input line 228.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[26 <./prov_sensor_v3.pdf>] [27 <./sys_arc_3_6.pdf>]
-<system_implementation_v4.pdf, id=209, 533.995pt x 161.60374pt>
+[25 <./prov_sensor_v3.pdf>] [26 <./sys_arc_3_6.pdf>]
+<system_implementation_v4.pdf, id=205, 533.995pt x 161.60374pt>
 File: system_implementation_v4.pdf Graphic file (type pdf)
 
 <use system_implementation_v4.pdf>
 Package pdftex.def Info: system_implementation_v4.pdf used on input line 255.
 (pdftex.def)             Requested size: 323.76787pt x 97.98633pt.
-) [28 <./system_implementation_v4.pdf>]
+) [27 <./system_implementation_v4.pdf>]
 \openout2 = `chapter4.aux'.
 
 
 (./chapter4.tex
 Chapter 5.
-[29
+[28
 
 
 
-] [30]) [31]
+] [29]) [30]
 \openout2 = `chapter5.aux'.
 
  (./chapter5.tex
 Chapter 6.
-
-LaTeX Warning: Citation `jeep_vulnerabilty' on page 32 undefined on input line 
-12.
-
-[32
+[31
 
 
 
-] [33]
+]
 
-LaTeX Warning: Reference `prov_vector' on page 34 undefined on input line 28.
+LaTeX Warning: Reference `prov_vector' on page 32 undefined on input line 24.
 
+[32]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[34] [35] [36]) [37]
+[33] [34]) [35]
 \openout2 = `chapter6.aux'.
 
  (./chapter6.tex
 Chapter 7.
-[38
+[36
 
 
 
-] <foo.pdf, id=261, 508.46524pt x 399.55524pt>
+] <foo.pdf, id=255, 508.46524pt x 399.55524pt>
 File: foo.pdf Graphic file (type pdf)
  <use foo.pdf>
 Package pdftex.def Info: foo.pdf used on input line 23.
 (pdftex.def)             Requested size: 323.76787pt x 254.42805pt.
- [39 <./foo.pdf>] [40]
+ [37 <./foo.pdf>] [38]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 58.
@@ -845,25 +833,25 @@ Overfull \hbox (6.78426pt too wide) in paragraph at lines 62--75
  [][] 
  []
 
-<roc_curve_0.pdf, id=298, 361.35pt x 361.35pt>
+<roc_curve_0.pdf, id=291, 361.35pt x 361.35pt>
 File: roc_curve_0.pdf Graphic file (type pdf)
  <use roc_curve_0.pdf>
 Package pdftex.def Info: roc_curve_0.pdf used on input line 138.
 (pdftex.def)             Requested size: 138.75967pt x 138.75902pt.
 
-<roc_curve_1.pdf, id=299, 361.35pt x 361.35pt>
+<roc_curve_1.pdf, id=292, 361.35pt x 361.35pt>
 File: roc_curve_1.pdf Graphic file (type pdf)
  <use roc_curve_1.pdf>
 Package pdftex.def Info: roc_curve_1.pdf used on input line 140.
 (pdftex.def)             Requested size: 138.75967pt x 138.75902pt.
 
-<roc_curve_2.pdf, id=300, 361.35pt x 361.35pt>
+<roc_curve_2.pdf, id=293, 361.35pt x 361.35pt>
 File: roc_curve_2.pdf Graphic file (type pdf)
  <use roc_curve_2.pdf>
 Package pdftex.def Info: roc_curve_2.pdf used on input line 142.
 (pdftex.def)             Requested size: 138.75967pt x 138.75902pt.
- [41]
-[42]) [43 <./roc_curve_0.pdf> <./roc_curve_1.pdf
+ [39]
+[40]) [41 <./roc_curve_0.pdf> <./roc_curve_1.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./roc_curve_1.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
@@ -874,29 +862,28 @@ usion: multiple pdfs with page group included in a single page
 >]
 \openout2 = `chapter7.aux'.
 
- (./chapter7.tex) [44
+ (./chapter7.tex
+Chapter 8.
+[42
 
 
-] (./thesis.bbl [45
+
+]) [43] (./thesis.bbl [44
 
 
 ]
-Missing character: There is no â in font cmti12!
-Missing character: There is no € in font cmti12!
-Missing character: There is no ” in font cmti12!
-
-Underfull \hbox (badness 2951) in paragraph at lines 102--107
+Underfull \hbox (badness 2951) in paragraph at lines 93--98
 []\OT1/cmr/m/n/12 Nicolas Fal-liere, Liam O Murchu, and Eric Chien.  W32.stuxne
 t dossier.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--107
+Underfull \hbox (badness 10000) in paragraph at lines 93--98
 \OT1/cmtt/m/n/12 https : / / www . symantec . com / content / en / us / enterpr
 ise / media / security _
  []
 
-[46] [47] [48] [49] [50] [51]) [52] (./thesis.aux (./acknowl.aux)
+[45] [46] [47] [48] [49] [50]) [51] (./thesis.aux (./acknowl.aux)
 (./preface.aux) (./abstract.aux) (./null.aux) (./chapter1.aux)
 (./background.aux) (./chapter2.aux) (./chapter3.aux) (./chapter4.aux)
 (./chapter5.aux) (./chapter6.aux) (./chapter7.aux))
@@ -908,13 +895,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14602 strings out of 493014
- 281792 string characters out of 6133351
- 338746 words of memory out of 5000000
- 17764 multiletter control sequences out of 15000+600000
+ 14600 strings out of 493014
+ 281743 string characters out of 6133351
+ 338736 words of memory out of 5000000
+ 17762 multiletter control sequences out of 15000+600000
  12453 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,10n,54p,2419b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,10n,54p,2777b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
@@ -929,10 +916,10 @@ texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (62 pages, 425191 bytes).
+Output written on thesis.pdf (61 pages, 421715 bytes).
 PDF statistics:
- 470 PDF objects out of 1000 (max. 8388607)
- 261 compressed objects within 3 object streams
+ 467 PDF objects out of 1000 (max. 8388607)
+ 259 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
