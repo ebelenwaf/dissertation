@@ -13,7 +13,7 @@ This section discusses the application of provenance data for intrusion detectio
 
 
 \subsection{Graph Similarity} \label{similarity}
-Similarity is a measure of how identical two objects are, for example, by measuring the angle between objects (using cosine similarity) or a linear distance (using euclidean distance) between the objects. In this work, we use cosine similarity as our similarity metric. This was inspired by the use of information retrieval techniques for query ranking. e.g., given a corpus $D = \{ d_1,..., d_n\}$, and query, $q$, how do we find document(s) $\{d_x,....d_y\}$ which are similar to $q$ and rank them by order of importance. Cosine similarity is a measure of orientation between two non-zero vectors. It measures the cosine of the angle between the vectors. Two vectors which are at an angle of 90$\degree$ have a similarity of 0, two vectors which are identical (with an angle of 0\degree) have a cosine of 1, and two vectors which are completely opposite (with an angle of 180\degree) have a similarity of -1. Since we are concerned with the similarity between vectors, we are only concerned with the positive values bounded in [0,1]. The cosine similarity between two vectors, $X$ and $Y$, is computed by:
+Similarity is a measure of how identical two objects are, for example, by measuring the angle between objects (using cosine similarity) or a linear distance (using euclidean distance) between the objects. In this work, we use cosine similarity as our similarity metric. Cosine similarity is a measure of orientation between two non-zero vectors. It measures the cosine of the angle between the vectors. Two vectors which are at an angle of 90$\degree$ have a similarity of 0, two vectors which are identical (with an angle of 0\degree) have a cosine of 1, and two vectors which are completely opposite (with an angle of 180\degree) have a similarity of -1. Since we are concerned with the similarity between vectors, we are only concerned with the positive values bounded in [0,1]. The cosine similarity between two vectors, $X$ and $Y$, is computed by:
 
 \[\mathbf{\cos{(\theta)}} = \dfrac{X \cdot  Y}{ \lVert \mathbf{X} \rVert \cdot \lVert \mathbf{Y} \rVert} =\dfrac{\sum_{i}^n X_i Y_i }{\sqrt[]{\sum_{i}^n X_i^2} \times \sqrt[]{\sum_{i}^n Y_i^2}}  \]
 
@@ -21,7 +21,17 @@ Similarity is a measure of how identical two objects are, for example, by measur
 
 %Each graph consist of an edge list which contains all edges contained in the provenance graph.
 
-\par In order to apply cosine similarity between provenance graphs, we compute a vector representation which reduces the graph into an $n$-dimensional vector space where $n$ represents the total number of edges contained in the union of all edge sets. Figure \ref{prov_vector} illustrates the vector space conversion of provenance graphs. $\boldsymbol{G_1}$, and $\boldsymbol{G_2}$ which consists of vertices $A,B,E,F,G, I, J, S, R$ and edge labels $aOBO, wAW, wGB, wDB$. The vector space representation of $u_1$ is the occurrence of edges contained in the edge set of graph $G_1$, which  are also found in the collective union of edge sets. Algorithm \ref{graph_to_vector} further outlines the concept of graph to vector conversion.
+\par In order to apply cosine similarity between provenance graphs, we compute a vector representation which reduces the graph into an $n$-dimensional vector space where $n$ represents the total number of edges contained in the union of all edge sets. Figure \ref{prov_vector} illustrates the vector space conversion of provenance graphs. $\boldsymbol{G_1}$, and $\boldsymbol{G_2}$ which consists of vertices $A,B,E,F,G, I, J, L, S, R$ and edge labels $used, wAW, wGB, wDB$. The vector space representation of $u_1$ is the occurrence of edges contained in the edge set of graph $G_1$, which  are also found in the collective union of edge sets. Algorithm \ref{graph_to_vector} further outlines the concept of graph to vector conversion.
+
+\begin{figure}[h!]
+\begin{center}
+%\includegraphics[width=\textwidth]{vector3.pdf}
+%\includegraphics[width=\textwidth]{vector5.pdf}
+\includegraphics[width=\textwidth]{Picture_13_edit_5.pdf}
+\end{center}
+\caption{Provenance graph conversion to vector space. $u_x, u_y$ represents vectors generated from both provenance graphs and labels are an abstraction of $(type, value)$ tuple. }
+\label{prov_vector}
+\end{figure}
 
 \subsection{Anomaly Detection on Provenance Graphs}
 Anomaly detection involves the use of rule-based, statistical, clustering or classification techniques to determine normal or anomalous data instances. The process of determining all anomalous instances in a given dataset is a complex task. A major challenge in anomaly detection is providing the right feature set from the data to use for detection. Another challenge exists in defining what constitutes as normal system behavior. Most anomaly detection using point-based data often fail to include the dependencies that exist between data points. 

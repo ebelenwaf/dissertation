@@ -8,8 +8,9 @@
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Prov-CPS System Implementation.\relax }}{27}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Provenance graph conversion to vector space. $u_x, u_y$ represents vectors generated from both provenance graphs and labels are an abstraction of $(type, value)$ tuple. \relax }}{34}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Provenance graph comparison of climate control system by week.\relax }}{37}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Provenance graph comparison of climate control system by week.\relax }}{39}
 \contentsline {figure}{\numberline {7.2}{\ignorespaces Receiver operating characteristic (ROC) curves without pruning and with FIFO or Priority pruning.\relax }}{41}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {ROC with No Pruning}}}{41}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {ROC with FIFO Pruning}}}{41}

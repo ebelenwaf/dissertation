@@ -1,12 +1,12 @@
 % chap6.tex (Significance and Future Work)
 
-\chapter{Experiment}
+\chapter{Experiments}
 
 In this section, we evaluate Prov-CPS using our anomaly detection algorithm on a climate control system and an automotive network bus.
 
 \section{Climate Control System}
 The experiment evaluation serves as a preliminary study to confirm the correctness of our theoretical approach in detecting anomalous instances between provenance graphs. We evaluate our intrusion detection algorithm on Prov-CPS by implementing an application which simulates a climate control system. Climate control systems ensure a proper functional environment for people and machinery. Constant irregularities in temperature could have devastating effects on industrial machinery. This system consists primarily of a heating ventilation and air conditioning (HVAC) system which uses temperature and humidity data to regulate environmental conditions within a building. We utilize a publicly available dataset \cite{LANGEVIN201594} which consists of a year's worth of longitudinal data on the thermal conditions, related behaviors, and comfort of twenty-four occupants in a medium-sized building generated at  a period of fifteen minutes. We utilize the temperature and humidity data as input to our simulation. We generate provenance graphs for each week of the year. We compare the provenance graph generated in consecutive weeks to see how they differ using our graph similarity approach (i.e., week 1 compared to week 2, week 2 compared to week 3 etc.). 
-\par Figure \ref{figure} depicts the cosine similarity between provenance graphs generated from the first occupant by preceding weeks. 
+\par Figure \ref{figure_climate} depicts the cosine similarity between provenance graphs generated from the first occupant by preceding weeks. 
 
 %Ensuring a proper threshold score is used for detection is an important task that requires extensive knowledge of the application domain. The threshold is manually set to a value which is defined by domain experts. For automatic anomaly threshold detection, one can use prediction methods to define an anomaly score. As an example, a threshold might be set to $0.15$ in which all of the scores below the threshold are considered anomalous. 
 
@@ -23,7 +23,7 @@ Since the dataset does not contain attacks, the declines shown in Figure \ref{fi
 \includegraphics[width=.7\columnwidth]{foo.pdf}
 \end{center}
 \caption{Provenance graph comparison of climate control system by week.}
-\label{figure}
+\label{figure_climate}
 \end{figure}
 
 \section{J1939 Network Bus }
@@ -55,7 +55,7 @@ For anomaly detection as described in Section~\ref{sec:prov_anomaly}, we take th
 For each window size, i.e., for each different value of $f$, we provide a cumulative TPR and FPR based on the sum of all the positives and negatives recorded over multiple variations of the log file. 
 
 
-\begin{table*}[] \centering
+\begin{table*}[tb!] \centering
 
 \caption{Cumulative results of anomaly detection true negative (TN), true positive (TP), false negative (FN), and false positive (FP) for no pruning, FIFO-based pruning, and prioritized pruning based on application priority values.}\label{tab:results}
 
@@ -136,9 +136,9 @@ For each window size, i.e., for each different value of $f$, we provide a cumula
  
 \centering
 \subfloat[ROC with No Pruning]{\includegraphics[width=.3\textwidth]{roc_curve_0.pdf}\label{fig:roc_curve_0}}
-\qquad
+\hfill
 \subfloat[ROC with FIFO Pruning]{\includegraphics[width=.3\textwidth]{roc_curve_1.pdf}\label{fig:roc_curve_1}}
-\qquad
+\hfill
 \subfloat[ROC with Priority Pruning]{\includegraphics[width=.3\textwidth]{roc_curve_2.pdf}\label{fig:roc_curve_2}}
 \caption{Receiver operating characteristic (ROC) curves without pruning and with FIFO or Priority pruning.}
 \label{fig:roc}

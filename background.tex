@@ -54,7 +54,7 @@ Anomaly detection involves the use of rule-based, statistical, clustering or cla
 Provenance is defined as ``The place of origin or earliest known history of something"~\cite{TCDP1999}. However, provenance and lineage are used interchangeably to denote the origin of something and transformation(s) that occurred to it over time. The notion of provenance originates from the art world, where an art piece auctioned is accompanied by a paper trail that denotes the artwork's chain of custody. This trail allows a buyer to ascertain the authenticity of the artwork. Likewise in computing, provenance provides a holistic history of data transformations that occur on a data object from inception to its present state. 
 
 Data provenance can ensure data integrity \cite{Bertino2015} and establish causality between data objects through information-flow tracking.
-Characteristic information provided by provenance include the who, where, when, and what of data transformation. \textbf{Who} identifies an actor responsible for a particular transformation of a data object. An example of ``who" in a CPS use case is a sensor, which is identified as the ultimate progenitor of values dervied from its sensor readings. \textbf{Where} provides the location of a transformation, for example a geolocation for the sensor. \textbf{When} associates time with a transformation, e.g., a timestamp obtained when a particular sensor reading was taken. \textbf{What} denotes the kind of transformation, such as a {\em read} operation or a {\em send} operation.
+Characteristic information provided by provenance include the who, where, when, and what of data transformation. \textbf{Who} identifies an actor responsible for a particular transformation of a data object. An example of ``who" in a CPS use case is a sensor, which is identified as the ultimate progenitor of values derived from its sensor readings. \textbf{Where} provides the location of a transformation, for example a geolocation for the sensor. \textbf{When} associates time with a transformation, e.g., a timestamp obtained when a particular sensor reading was taken. \textbf{What} denotes the kind of transformation, such as a {\em read} operation or a {\em send} operation.
 
 Provenance has been applied to database management to track the derivation of a query, in forensic analysis to determine what activities led to a system event~\cite{Bates2014LetSB, Lu:2010:SPE:1755688.1755723, 6542529}, in scientific experimentation for experiment reproducibility~\cite{chimera, Davidson:2008:PSW:1376616.1376772, altintas, Oinn2004TavernaAT}, and in intrusion detection~\cite{Xie_yulani, Fadolalkarim, 203308} to detect what activity might be responsible for a malicious compromise.
 
@@ -110,7 +110,7 @@ To facilitate the creation of cross-platform provenance, an abstract representat
 \begin{figure}[h!]
 \begin{center}
 
-\includegraphics[width=0.7\textwidth]{prov_dm_2.PNG}
+\includegraphics[width=.6\textwidth]{prov_dm_2.PNG}
 \end{center}
 \caption{Prov-DM respresentation showing types in the model (Entity, Activity, and Agent) and the relationships between them }
 \label{prov_rep}
@@ -130,7 +130,7 @@ To facilitate the creation of cross-platform provenance, an abstract representat
 
 \item wasAttributedTo: Denotes relational dependency between an entity and an agent when the activity that created the agent is unknown.
 
-\item wasAssociatedWith: An agent created or modified the activity
+\item wasAssociatedWith: An agent created or modified the activity.
 
 \item actedOnBehalfOf: Delegation of authority from an agent to itself or another agent to perform a particular responsibility. 
 
