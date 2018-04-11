@@ -16,9 +16,9 @@
 \contentsline {section}{\numberline {3.1}Data Provenance Collection Systems}{9}
 \contentsline {subsubsection}{Kernel space provenance collection}{9}
 \contentsline {subsubsection}{User-space provenance collection}{12}
-\contentsline {subsection}{\numberline {3.1.1}Provenance of Sensor Networks}{14}
-\contentsline {subsection}{\numberline {3.1.2}Provenance collection on scientific experiments}{15}
-\contentsline {subsection}{\numberline {3.1.3}Application Instrumentation-based provenance collection}{15}
+\contentsline {subsection}{\numberline {3.1.1}Provenance collection in Sensor Networks}{14}
+\contentsline {subsection}{\numberline {3.1.2}Provenance collection for scientific experiments}{15}
+\contentsline {subsection}{\numberline {3.1.3}Application Instrumentation-based provenance collection}{16}
 \contentsline {section}{\numberline {3.2}Provenance-based Pruning}{18}
 \contentsline {subsection}{\numberline {3.2.1}Provenance-based IDS}{20}
 \contentsline {chapter}{\numberline {4}Provenance-Aware CPS (Prov-CPS)}{22}
