@@ -9,12 +9,11 @@
 \contentsline {section}{\numberline {1.1}Research Contribution}{3}
 \contentsline {section}{\numberline {1.2}Organization of Dissertation}{3}
 \contentsline {chapter}{\numberline {2}Background}{5}
-\contentsline {subsection}{\numberline {2.0.1}Anomaly Detection}{5}
-\contentsline {section}{\numberline {2.1}Data Provenance}{6}
-\contentsline {section}{\numberline {2.2}Model for representing data provenance}{7}
+\contentsline {section}{\numberline {2.1}Data Provenance}{5}
+\contentsline {section}{\numberline {2.2}Model for representing data provenance}{6}
 \contentsline {chapter}{\numberline {3}Literature Review}{9}
 \contentsline {section}{\numberline {3.1}Data Provenance Collection Systems}{9}
-\contentsline {subsubsection}{Kernel space provenance collection}{9}
+\contentsline {subsubsection}{Kernel-space provenance collection}{9}
 \contentsline {subsubsection}{User-space provenance collection}{12}
 \contentsline {subsection}{\numberline {3.1.1}Provenance collection in Sensor Networks}{14}
 \contentsline {subsection}{\numberline {3.1.2}Provenance collection for scientific experiments}{15}
@@ -31,15 +30,14 @@
 \contentsline {section}{\numberline {5.1}Introduction}{29}
 \contentsline {section}{\numberline {5.2}Types of Provenance Pruning}{30}
 \contentsline {section}{\numberline {5.3}Pruning in Prov-CPS}{31}
-\contentsline {chapter}{\numberline {6}Anomaly Detection using Provenance Graphs}{32}
-\contentsline {section}{\numberline {6.1}Provenance-Based Anomaly Detection}{32}
-\contentsline {subsection}{\numberline {6.1.1}Graph Similarity}{33}
-\contentsline {subsection}{\numberline {6.1.2}Anomaly Detection on Provenance Graphs}{33}
-\contentsline {subsubsection}{Defining Anomaly Threshold}{36}
-\contentsline {chapter}{\numberline {7}Experiments}{38}
-\contentsline {section}{\numberline {7.1}Climate Control System}{38}
-\contentsline {section}{\numberline {7.2}J1939 Network Bus }{39}
-\contentsline {chapter}{\numberline {8}Conclusion and Future Directions}{44}
-\contentsline {section}{\numberline {8.1}Summary}{44}
-\contentsline {section}{\numberline {8.2}Future Research Direction}{44}
-\contentsline {chapter}{References}{46}
+\contentsline {chapter}{\numberline {6}Provenance-Based Anomaly Detection}{32}
+\contentsline {section}{\numberline {6.1}Graph Similarity}{32}
+\contentsline {section}{\numberline {6.2}Anomaly Detection on Provenance Graphs}{33}
+\contentsline {subsection}{\numberline {6.2.1}Defining Anomaly Threshold}{36}
+\contentsline {chapter}{\numberline {7}Experiments}{37}
+\contentsline {section}{\numberline {7.1}Climate Control System}{37}
+\contentsline {section}{\numberline {7.2}J1939 Network Bus }{38}
+\contentsline {chapter}{\numberline {8}Conclusion and Future Directions}{43}
+\contentsline {section}{\numberline {8.1}Summary}{43}
+\contentsline {section}{\numberline {8.2}Future Research Direction}{43}
+\contentsline {chapter}{References}{45}

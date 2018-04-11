@@ -17,7 +17,8 @@ Ctf.
 \newblock \url{http://diamon.org/ctf/}, 2018.
 
 \bibitem{peterbilt}
-Peterbilt dataset, 2018.
+Peterbilt dataset.
+\newblock \url{http://tucrrc.utulsa.edu/J1939}, 2018.
 
 \bibitem{altintas}
 Ilkay Altintas, Oscar Barney, and Efrat Jaeger-Frank.
@@ -162,12 +163,6 @@ Ragib Hasan, Radu Sion, and Marianne Winslett.
   Technologies}, FAST '09, pages 1--14, Berkeley, CA, USA, 2009. USENIX
   Association.
 
-\bibitem{hawkins}
-{D. M.} Hawkins.
-\newblock {\em Identification of outliers}.
-\newblock Monographs on applied probability and statistics. Chapman and Hall,
-  London [u.a.], 1980.
-
 \bibitem{hussain_secure_2014}
 Syed~Rafiul Hussain, Changda Wang, Salmin Sultana, and Elisa Bertino.
 \newblock Secure {Data} {Provenance} {Compression} {Using} {Arithmetic}
@@ -217,11 +212,6 @@ Jared Langevin, Patrick~L. Gurian, and Jin Wen.
   of occupant behavior in air-conditioned offices.
 \newblock {\em Journal of Environmental Psychology}, 42(Supplement C):94 --
   115, 2015.
-
-\bibitem{Lazarevic2005}
-Aleksandar Lazarevic, Vipin Kumar, and Jaideep Srivastava.
-\newblock {\em Intrusion Detection: A Survey}, pages 19--78.
-\newblock Springer US, Boston, MA, 2005.
 
 \bibitem{LI2014259}
 Jin Li, Xiaofeng Chen, Qiong Huang, and Duncan~S. Wong.

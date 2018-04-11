@@ -1,18 +1,14 @@
 % chap5.tex (Definitions, Theorem and Proof)
 
 %\chapter{CPS Device Sensor Data Anomaly Detection using Provenance Graphs}
-\chapter{Anomaly Detection using Provenance Graphs}
-\section{Provenance-Based Anomaly Detection} \label{sec:prov_anomaly}
-This section discusses the application of provenance data for intrusion detection of malicious events in a CPS device. 
-
-%We propose an approach to identifying anomalous events using provenance graphs. This approach involves the use of a similarity metric to compare observed provenance graphs with provenance graphs derived from an application's normal execution. The result is an anomaly score which is  compared with a previously set threshold to classify an observed provenance graph as either anomalous or benign. We evaluate the effectiveness of our approach with a sample IoT application that simulates a climate control system.
-
- \par We propose an approach to identifying anomalous sensor events using provenance graphs. This approach involves the use of a similarity metric to compare observed provenance graphs with provenance graphs derived from an application's normal execution. The result is an anomaly score which is  compared with a previously set threshold to classify an observed provenance graph as either anomalous or benign. We evaluate the effectiveness of our approach with a sample IoT application that simulates a climate control system.
+%\chapter{Anomaly Detection using Provenance Graphs}
+\chapter{Provenance-Based Anomaly Detection} \label{sec:prov_anomaly}
+This chapter discusses the application of provenance data for intrusion detection of malicious events in a CPS device. We propose an approach to identifying anomalous sensor events using provenance graphs. This approach involves the use of a similarity metric to compare observed provenance graphs with provenance graphs derived from an application's normal execution. The result is an anomaly score which is  compared with a previously set threshold to classify an observed provenance graph as either anomalous or benign. We evaluate the effectiveness of our approach with a sample IoT application that simulates a climate control system.
  
  \par Our method of comparing the similarity of provenance graphs was inspired by an information retrieval technique for document retrieval. Given a corpus $D = \{ d_1,..., d_n\}$, and query, $q$, how do we find document(s) $\{d_x,....d_y\}$ which are similar to $q$ and rank them by order of importance. To achieve this, documents contained in the corpus are converted into a vector space representation which allows documents to be ranked based on some similarity metric.
 
 
-\subsection{Graph Similarity} \label{similarity}
+\section{Graph Similarity} \label{similarity}
 Similarity is a measure of how identical two objects are, for example, by measuring the angle between objects (using cosine similarity) or a linear distance (using euclidean distance) between the objects. In this work, we use cosine similarity as our similarity metric. Cosine similarity is a measure of orientation between two non-zero vectors. It measures the cosine of the angle between the vectors. Two vectors which are at an angle of 90$\degree$ have a similarity of 0, two vectors which are identical (with an angle of 0\degree) have a cosine of 1, and two vectors which are completely opposite (with an angle of 180\degree) have a similarity of -1. Since we are concerned with the similarity between vectors, we are only concerned with the positive values bounded in [0,1]. The cosine similarity between two vectors, $X$ and $Y$, is computed by:
 
 \[\mathbf{\cos{(\theta)}} = \dfrac{X \cdot  Y}{ \lVert \mathbf{X} \rVert \cdot \lVert \mathbf{Y} \rVert} =\dfrac{\sum_{i}^n X_i Y_i }{\sqrt[]{\sum_{i}^n X_i^2} \times \sqrt[]{\sum_{i}^n Y_i^2}}  \]
@@ -33,7 +29,7 @@ Similarity is a measure of how identical two objects are, for example, by measur
 \label{prov_vector}
 \end{figure}
 
-\subsection{Anomaly Detection on Provenance Graphs}
+\section{Anomaly Detection on Provenance Graphs}
 Anomaly detection involves the use of rule-based, statistical, clustering or classification techniques to determine normal or anomalous data instances. The process of determining all anomalous instances in a given dataset is a complex task. A major challenge in anomaly detection is providing the right feature set from the data to use for detection. Another challenge exists in defining what constitutes as normal system behavior. Most anomaly detection using point-based data often fail to include the dependencies that exist between data points. 
 
 \par Due to the ubiquitous nature of CPS devices, there are a wide array of vulnerabilities associated with them. In designing our anomaly detection framework, we expect an attacker's footprint is reflected through the data flow as depicted in the provenance graph. Our algorithm detects attacks such as false data injection, and state change as depicted in information flow of sensor events in provenance graphs.
@@ -118,7 +114,7 @@ Anomaly detection involves the use of rule-based, statistical, clustering or cla
 
 \par The expected regularity of provenance graphs in CPS applications motivates a supervised learning approach to anomaly detection. This approach consists of two phases: observation phase, also known as the training phase, and the detection or test phase. In the observation phase, the system collects provenance data considered to be a representation of the normal system behavior. In the detection phase, the provenance graph set is compared with the provenance graph derived from subsequent observations to determine if an anomaly exists by measuring similarity between this graph and the provenance graph set. Note that provenance graphs from the observation and detection phase form a graph set. A global edge set, $E_G$ represents the union of edge sets contained in a graph set. Algorithm \ref{alg:graph_anomaly} is the graph anomaly detection function given an observation phase graph set, $P$, and a detection phase graph, $G$. $Z$ represents a list of the cosine scores from comparing each of the provenance graphs in the observation phase graph set with a detection phase graph. The maximum cosine similarity score of elements contained in $Z$ is taken as the score for the detection phase graph, and if that score is above the threshold $T$ then the graph is considered normal, otherwise it is classifed an anomaly.
 
-\subsubsection{Defining Anomaly Threshold}
+\subsection{Defining Anomaly Threshold}
 
 An anomaly threshold $T$ is a score that defines at what point a provenance graph contained in the test data is considered anomalous. Ensuring a proper threshold score is used for detection is an important task that requires extensive knowledge of the application domain. The threshold often is manually set to a value that is defined by domain experts. For automatic anomaly threshold detection, one can use prediction methods to define an anomaly score. Threshold values can be increased or decreased to alter the anomaly detection accuracy.
 
