@@ -4,15 +4,16 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Provenance graph generated from a thermostat device.\relax }}{25}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Prov-CPS Conceptual System Design.\relax }}{26}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Prov-CPS System Implementation.\relax }}{27}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Prov-CPS Conceptual System Design.\relax }}{27}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Prov-CPS System Implementation.\relax }}{28}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Storage growth per trace events. \relax }}{31}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Provenance graph conversion to vector space. $u_x, u_y$ represents vectors generated from both provenance graphs and labels are an abstraction of $(type, value)$ tuple. \relax }}{34}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Provenance graph conversion to vector space. $u_x, u_y$ represents vectors generated from both provenance graphs and labels are an abstraction of $(type, value)$ tuple. \relax }}{36}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Provenance graph comparison of climate control system by week.\relax }}{38}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Receiver operating characteristic (ROC) curves without pruning and with FIFO or Priority pruning.\relax }}{40}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {ROC with No Pruning}}}{40}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {ROC with FIFO Pruning}}}{40}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {ROC with Priority Pruning}}}{40}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Provenance graph comparison of climate control system by week.\relax }}{41}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Receiver operating characteristic (ROC) curves without pruning and with FIFO or Priority pruning.\relax }}{43}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {ROC with No Pruning}}}{43}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {ROC with FIFO Pruning}}}{43}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {ROC with Priority Pruning}}}{43}
 \addvspace {10\p@ }

@@ -9,13 +9,13 @@ In this chapter, we explore the integration of provenance within the CPS ecosyst
 %In this section, we explain the integration of data provenance into the CPS ecosystem.
 The first step to realizing the benefits that provenance offers for CPS is to develop a framework that collects provenance data from embedded systems in the CPS automatically and with minimal system overhead. Such a framework should be
 
-\begin{itemize}
+\begin{enumerate}
 
 \item \textbf{Complete:} A system must collect all provenance of causal dependencies between events. That is, provenance data collected must be complete in such a way that any datum can be backtracked to its source. % Completeness is defined by the application in which provenance data is used for. In our case, we utilize provenance graphs as input to our IDS system. 
 
 \item \textbf{Abstract:} A system must be generic enough such that it can be reused across multiple CPS applications and domains. 
 
-\end{itemize}
+\end{enumerate}
 
 Our approach leverages application-defined traces of data creation and transformation to achieve completeness, and uses a predefined provenance data model that is modular and generic to analyze those traces and convert them to provenance in a abstract manner.
 
@@ -23,10 +23,14 @@ Our approach leverages application-defined traces of data creation and transform
 
 \section{Trace-based Provenance Data Model} \label{prov_sensor_model}
 
-Embedded systems in a CPS application comprise sensors and actuators operating on a continuous basis with data periodically created, transformed, and transmitted through device network interfaces. Properly representing these operations requires a data model that encompasses the intricate data flow within, between, and across devices. This model should be interoperable for varied application domains. 
+Embedded systems in a CPS application comprises of sensors and actuators operating on a continuous basis with data periodically created, transformed, and transmitted through device network interfaces. Properly representing these operations requires a data model that encompasses the intricate data flow within, between, and across devices. This model should be interoperable for varied application domains. 
 
 
-\begin{table}[t] \centering 
+Although provenance models are well-studied, no existing provenance model properly represents the dataflow of application logic for embedded systems in a CPS. To address this issue in Prov-CPS, we define a provenance-trace model that maps from the W3C's PROV-DM ontological representation to concepts relevant for a trace-based approach to provenance collection in a CPS. This mapping enables interoperability of Prov-CPS among heterogeneous systems and applications. 
+Relationships between each component of provenance-trace model is depicted using relations as described in PROV-DM~\cite{prov_dm}. Table \ref{table_mapping_provenance} describes the mapping of terminology between the Prov-CPS trace-based provenance model and PROV-DM. 
+
+
+\begin{table}[!tbh] \centering 
 \caption{Concept mapping from trace-based provenance to PROV-DM.}
 \label{table_mapping_provenance}
 \resizebox{\textwidth}{!}{ \begin{tabular}{||c| c| c| c||} 
@@ -46,10 +50,6 @@ Embedded systems in a CPS application comprise sensors and actuators operating o
  \end{tabular}}
 \end{table}
 
-
-Although provenance models are well-studied, no existing provenance model properly represents the dataflow of application logic for embedded systems in a CPS. To address this issue in Prov-CPS, we define a provenance-trace model that maps from the W3C's PROV-DM ontological representation to concepts relevant for a trace-based approach to provenance collection in a CPS. This mapping enables interoperability of Prov-CPS among heterogeneous systems and applications. 
-Relationships between each component of provenance-trace model is depicted using relations as described in PROV-DM~\cite{prov_dm}. Table \ref{table_mapping_provenance} describes the mapping of terminology between the Prov-CPS trace-based provenance model and PROV-DM. 
-
 % There has been a couple of proposed data provenance models in the literature; however, there are no defined provenance model that properly represents information-flow of application-centric trace logic in a CPS device. To address this issue, we define a provenance-trace model on top of W3C Provenance ontology as a mapping of trace data to provenance ontological representation. This ensures interoperability between various heterogeneous systems that are contained in a CPS ecosystem. Our model satisfies the provenance characteristics as depicted in Section \ref{figure}. 
 
 %%%Come back to this%%%%%%
@@ -65,12 +65,12 @@ The key to effective collection of provenance is the definition of a general tra
  where $t$ is a timestamp, $d$ is a data object, $a$ is an action, $c$ is a controller's identifier, and $p$ is a producer's identifier.
 
 For every trace event, Prov-CPS establishes the following fixed relationships between the provenance model components:
-\begin{itemize}
+\begin{enumerate}
  \item $c$ \textit{used} $p$
  \item $(t,d)$ \textit{wasGeneratedBy} $a$
  \item $p$ \textit{wasAssociatedWith} $a$
  \item $(t,d)_{p}$ \textit{wasAssociatedWith} $(t,d)$
-\end{itemize}
+\end{enumerate}
 where $(t,d)_{p}$ is the most recent $(t,d)$ generated by an action associated with the producer $p$. This last relationship establishes a temporal relationship between data objects generated by the same producer.
 
 % To denote relations, each node forms an edge with a specified node as follows:
@@ -212,13 +212,6 @@ Relations between components of the trace event are formed as described earlier.
 %\end{algorithmic}
 %\end{algorithm}
 
-\begin{figure}[h!]
-\begin{center}
-\includegraphics[width=0.6\textwidth]{sys_arc_3_6.pdf}
-\end{center}
-\caption{Prov-CPS Conceptual System Design.}
-\label{framework_design}
-\end{figure}
 
 \section{Prov-CPS Architecture}
 Prov-CPS uses a modular approach that decouples the act of tracing events from that of linking them to form provenance. In this section we describe the architectural design of this approach, and defer implementation details to Section~\ref{system_implementation}.  Figure \ref{framework_design} illustrates the overall system design consisting of four primary components:
@@ -233,13 +226,12 @@ Prov-CPS uses a modular approach that decouples the act of tracing events from t
  
  \textbf{Provenance application} uses provenance data for specific tasks such as anomaly detection or digital forensics. %For our implementation, we chose to utilize provenance graphs for intrusion detection since we can detect event states changes through causality and dependencies derived from Prov-CPS.
  
-
  \begin{figure}[h!]
 \begin{center}
-\includegraphics[width=0.6\textwidth]{system_implementation_v4.pdf}
+\includegraphics[width=0.6\textwidth]{sys_arc_3_6.pdf}
 \end{center}
-\caption{Prov-CPS System Implementation.}
-\label{figure}
+\caption{Prov-CPS Conceptual System Design.}
+\label{framework_design}
 \end{figure}
 
 \section{System Implementation} \label{system_implementation}
@@ -260,6 +252,22 @@ Event field specification is done by a using a configuration file written in the
 We implemented a trace mapper on top of the babeltrace~\cite{babeltrace} python bindings for programmatically manipulating CTF streams. With babeltrace, we are able to access trace packets contained in a CTF packet stream and convert them to a provenance graph representation. To generate provenance graphs, we utilize the \textbf{PROV} python library for creating W3C compliant provenance ontology documents. The provenance graph generated is serialized into an intermediate file in JSON format that can be stored in Neo4j for efficient query and graph processing.
 
 The provenance application we use to evaluate Prov-CPS in this work is a graph-based anomaly detection algorithm for use as a CPS intrusion detection system, which we describe in chapter~\ref{sec:prov_anomaly}.
+
+ \begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.6\textwidth]{system_implementation_v4.pdf}
+\end{center}
+\caption{Prov-CPS System Implementation.}
+\label{figure}
+\end{figure}
+
+ \subsection{Complexity analysis}
+%This section analyzes time and space complexity of the various components contained in Prov-CPS. 
+
+\textbf{Tracer} appends trace data to a list of events. This takes $O(1)$ time and $O(n)$ space. \textbf{Trace mapper} iterates through all of the events and maps them to PROV-O using Provenance-trace model. This takes $O(n)$ time and $O(n)$ space.
+
+\section{Summary}
+This chapter introduces PROV-CPS, a provenance collection framework for CPS devices. Components of PROV-CPS such as tracer and trace mapper are discussed with system implementation details. The next chapter discusses storage optimization techniques for provenance data generated in PROV-CPS.
 
 
 

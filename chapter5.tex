@@ -9,7 +9,7 @@ This chapter discusses the application of provenance data for intrusion detectio
 
 
 \section{Graph Similarity} \label{similarity}
-Similarity is a measure of how identical two objects are, for example, by measuring the angle between objects (using cosine similarity) or a linear distance (using euclidean distance) between the objects. In this work, we use cosine similarity as our similarity metric. Cosine similarity is a measure of orientation between two non-zero vectors. It measures the cosine of the angle between the vectors. Two vectors which are at an angle of 90$\degree$ have a similarity of 0, two vectors which are identical (with an angle of 0\degree) have a cosine of 1, and two vectors which are completely opposite (with an angle of 180\degree) have a similarity of -1. Since we are concerned with the similarity between vectors, we are only concerned with the positive values bounded in [0,1]. The cosine similarity between two vectors, $X$ and $Y$, is computed by:
+Similarity is a measure of how identical two objects are, for example, by measuring the angle between objects (using cosine similarity) or a linear distance (using euclidean distance) between the objects. In this work, we use cosine similarity, a widely used similarity metric in information retrieval that has been shown to perform well with sparse datasets. Cosine similarity is a measure of orientation between two non-zero vectors. It measures the cosine of the angle between the vectors. Two vectors which are at an angle of 90$\degree$ have a similarity of 0, two vectors which are identical (with an angle of 0\degree) have a cosine of 1, and two vectors which are completely opposite (with an angle of 180\degree) have a similarity of -1. Since we are concerned with the similarity between vectors, we are only concerned with the positive values bounded in [0,1]. The cosine similarity between two vectors, $X$ and $Y$, is computed by:
 
 \[\mathbf{\cos{(\theta)}} = \dfrac{X \cdot  Y}{ \lVert \mathbf{X} \rVert \cdot \lVert \mathbf{Y} \rVert} =\dfrac{\sum_{i}^n X_i Y_i }{\sqrt[]{\sum_{i}^n X_i^2} \times \sqrt[]{\sum_{i}^n Y_i^2}}  \]
 
@@ -31,8 +31,6 @@ Similarity is a measure of how identical two objects are, for example, by measur
 
 \section{Anomaly Detection on Provenance Graphs}
 Anomaly detection involves the use of rule-based, statistical, clustering or classification techniques to determine normal or anomalous data instances. The process of determining all anomalous instances in a given dataset is a complex task. A major challenge in anomaly detection is providing the right feature set from the data to use for detection. Another challenge exists in defining what constitutes as normal system behavior. Most anomaly detection using point-based data often fail to include the dependencies that exist between data points. 
-
-\par Due to the ubiquitous nature of CPS devices, there are a wide array of vulnerabilities associated with them. In designing our anomaly detection framework, we expect an attacker's footprint is reflected through the data flow as depicted in the provenance graph. Our algorithm detects attacks such as false data injection, and state change as depicted in information flow of sensor events in provenance graphs.
 
 \begin{algorithm}[h!]  
 \caption{Graph to vector conversion.} 
@@ -85,12 +83,14 @@ Anomaly detection involves the use of rule-based, statistical, clustering or cla
 %\For{$p_i = (V_i, E_i) \in P, 0 \leq i \leq n$}
 \State $E_G \gets \cup_{i=0}^{n} E_i$
 
-\State $Q \gets GraphtoVector(G, E_G)$ 
+\State $G \gets (V, E)$
+
+\State $Q \gets GraphtoVector(E, E_G)$ 
 
 \State $Z \gets \{\}$
 
 \For{$G_i \in P$}
-\State $N_i \gets GraphtoVector(G_i, E_G)$
+\State $N_i \gets GraphtoVector(E_i, E_G)$
 
 \State $z \gets Cosine\_Similarity(Q, N_i)$
 
@@ -112,12 +112,28 @@ Anomaly detection involves the use of rule-based, statistical, clustering or cla
 
 \par Many CPS devices implement a control systems in which sensor data is used as an input in a feedback loop to an actuator. The operations of most control systems are regular and predictable. For example, in a thermostat application, temperature readings generated might be converted from Celsius to Fahrenheit and utilized as feedback to an actuator. Each iteration of a control loop sequence generates a path in a provenance graph. This notion can be leveraged to define an expected provenance graph for each application. 
 
-\par The expected regularity of provenance graphs in CPS applications motivates a supervised learning approach to anomaly detection. This approach consists of two phases: observation phase, also known as the training phase, and the detection or test phase. In the observation phase, the system collects provenance data considered to be a representation of the normal system behavior. In the detection phase, the provenance graph set is compared with the provenance graph derived from subsequent observations to determine if an anomaly exists by measuring similarity between this graph and the provenance graph set. Note that provenance graphs from the observation and detection phase form a graph set. A global edge set, $E_G$ represents the union of edge sets contained in a graph set. Algorithm \ref{alg:graph_anomaly} is the graph anomaly detection function given an observation phase graph set, $P$, and a detection phase graph, $G$. $Z$ represents a list of the cosine scores from comparing each of the provenance graphs in the observation phase graph set with a detection phase graph. The maximum cosine similarity score of elements contained in $Z$ is taken as the score for the detection phase graph, and if that score is above the threshold $T$ then the graph is considered normal, otherwise it is classifed an anomaly.
+\par The expected regularity of provenance graphs in CPS applications motivates a supervised learning approach to anomaly detection. This approach consists of two phases: observation phase, also known as the training phase, and the detection or test phase. In the observation phase, the system collects provenance data considered to be a representation of the normal system behavior. In the detection phase, the provenance graph set is compared with the provenance graph derived from subsequent observations to determine if an anomaly exists by measuring similarity between this graph and the provenance graph set. Note that provenance graphs from the observation and detection phase form a graph set. A global edge set, $E_G$ represents the union of edge sets contained in a graph set. Algorithm \ref{alg:graph_anomaly} is the graph anomaly detection function given an observation phase graph set, $P$, and a detection phase graph, $G$. $Z$ represents a list of the cosine scores from comparing each of the provenance graphs in the observation phase graph set with a detection phase graph. The maximum cosine similarity score of elements contained in $Z$ is taken as the score for the detection phase graph, and if that score is above the threshold $T$ then the graph is considered normal, otherwise it is classified an anomaly.
 
 \subsection{Defining Anomaly Threshold}
+An anomaly threshold $T$ is a score that defines at what point a provenance graph contained in the test data is considered anomalous. Ensuring a proper threshold score is used for detection is an important task that requires extensive knowledge of the application domain. The threshold often is manually set to a value that is defined by domain experts. For automatic anomaly threshold detection, an approach would be to determine the average of a set of cosine similarity scores. Additionally, one can use prediction methods such as regression, decision trees, or random forest to define an anomaly score. Threshold values can be increased or decreased to alter the anomaly detection accuracy. 
 
-An anomaly threshold $T$ is a score that defines at what point a provenance graph contained in the test data is considered anomalous. Ensuring a proper threshold score is used for detection is an important task that requires extensive knowledge of the application domain. The threshold often is manually set to a value that is defined by domain experts. For automatic anomaly threshold detection, one can use prediction methods to define an anomaly score. Threshold values can be increased or decreased to alter the anomaly detection accuracy.
 
+\subsection{Complexity analysis}
+
+In Algorithm \ref{graph_to_vector}, each edge contained in edgelist $E$ is iterated over all of the edges contained in the global edgelist $E_G$. The algorithm takes $O(|E| \times |E_G|)$ and $O(|E| + |E_G|)$ in time and space complexity respectively. In Algorithm \ref{alg:graph_anomaly}, graph $G$ is compared with every graph contained in the set $P$. This involves a call to \texttt{GRAPHTOVECTOR} and \texttt{Cosine\_Similarity} functions and produces a time complexity of $O(|P| \times |E_G|^2)$ and $O(|P| \times |E_G|)$ respectively. Therefore, the overall time complexity of Algorithm \ref{alg:graph_anomaly} is $O(|P| \times |E_G|^2)$ and runs with a space complexity of $O(|P| \times (|E_G|))$.
+
+
+
+% to convert each graph to a vector representation and comparing the cosine values of $Q$ and $N_i$ which takes $O(n^2)$. Also, each vector is compared 
+
+
+\subsection{Threat Assumptions}
+Due to the ubiquitous nature of CPS devices, there are a wide array of vulnerabilities associated with them. In designing our anomaly detection framework, we expect an attacker's footprint is reflected through the data flow as depicted in the provenance graph. Our algorithm detects attacks such as false data injection, and state change as depicted in information flow of sensor events in provenance graphs. It is important to note that we do not provide security using cryptographic primitives such as encryption or digital signatures. Additionally, this framework does not prevent attacks on the modification of data within the normal data flow.
+
+
+\section{Summary}
+
+This chapter introduces an anomaly detection algorithm for detecting anomalous system behavior as depicted by the data flow of events in a CPS device. Detailed information on the steps taken such as converting a graph into a vector representation and determining the similarity between vectors are discussed. The next chapter evaluates the effectiveness of PROV-CPS using the anomaly detection algorithm discussed in this chapter which is applied to a climate control system and an automotive domain. 
 
 
 

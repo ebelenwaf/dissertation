@@ -1,6 +1,6 @@
 \chapter{Introduction}\label{chapter:introduction}
 
-Cyber-physical systems (CPS) and the Internet of Things (IoT) are rapidly accelerating the pace of evolution in the production of embedded systems. Spanning the range of personal devices for recreation and comfort, critical-care medical implants and monitors, intelligent transportation systems, and large-scale industrial facilities, embedded systems underlie the fabric of modern society and are commonplace in nearly all aspects of human daily activities. The benefits of widespread adoption include advances in financial management, health and welfare, economic output and productivity, and recreation. By and large, these benefits derive from distributed physical environment sensing and actuation integrated with data analytics. %CPS involves the integration of computing (i.e., embedded devices), physical systems (i.e., humans in the loop), and networking components in a unified scheme while being controlled by a computing system. CPS has applications in smart home, connected vehicles, industrial automation, power grids, aircraft system, medical devices, and buildings~\cite{Rajkumar:2010:CSN:1837274.1837461}. \textcolor{blue}{As a result of advancements in CPS research, we are able to control home devices remotely~\cite{Kadima, DeRussis}, communicate surrounding information from one vehicle to another in real-time~\cite{5454256, DBLP:journals/corr/abs-1304-3357}, perform automated at home monitoring and control of chronic diseases~\cite{6197404,doi:10.1155/2014/217415}. The progression in development and deployment of CPS can be attributed to the advancement in networking and embedded systems technology. CPS mainly comprises of embedded systems which are the building block to its computational component. Embedded systems are focused on computation and less on the interactions with the physical environment.}
+\par Cyber-physical systems (CPS) and the Internet of Things (IoT) are rapidly accelerating the pace of evolution in the production of embedded systems. Spanning the range of personal devices for recreation and comfort, critical-care medical implants and monitors, intelligent transportation systems, and large-scale industrial facilities, embedded systems underlie the fabric of modern society and are commonplace in nearly all aspects of human daily activities. The benefits of widespread adoption include advances in financial management, health and welfare, economic output and productivity, and recreation. By and large, these benefits derive from distributed physical environment sensing and actuation integrated with data analytics. %CPS involves the integration of computing (i.e., embedded devices), physical systems (i.e., humans in the loop), and networking components in a unified scheme while being controlled by a computing system. CPS has applications in smart home, connected vehicles, industrial automation, power grids, aircraft system, medical devices, and buildings~\cite{Rajkumar:2010:CSN:1837274.1837461}. \textcolor{blue}{As a result of advancements in CPS research, we are able to control home devices remotely~\cite{Kadima, DeRussis}, communicate surrounding information from one vehicle to another in real-time~\cite{5454256, DBLP:journals/corr/abs-1304-3357}, perform automated at home monitoring and control of chronic diseases~\cite{6197404,doi:10.1155/2014/217415}. The progression in development and deployment of CPS can be attributed to the advancement in networking and embedded systems technology. CPS mainly comprises of embedded systems which are the building block to its computational component. Embedded systems are focused on computation and less on the interactions with the physical environment.}
 %
 Ubiquitous deployment of embedded systems with access to Internet gateways has led to the exponential growth of the IoT, which consists of heterogeneous, multiscale CPSs. Unfortunately, the rapid connection of these systems to external networks increases their attack surface and remotely exploitable vulnerabilities introduce new attack vectors that can have disastrous financial and physical impacts. In 2010 Stuxnet~\cite{stuxnet}---a sophisticated self-replicating virus---was discovered that successfully exploited vulnerabilities in industrial control system (ICS) software. In 2015, security researchers demonstrated a remote exploit targeting a Jeep vehicle that allowed the attacker to completely control the compromised automobile over the Internet~\cite{jeep_vulnerability}. In 2016, an exploitable vulnerability was discovered that enabled Internet-connected smart thermostats to be attacked by remote ransomware~\cite{smart_thermostat}. Such exploits can have devastating and long-lasting impact on individuals, institutions, and even nation-states.
 
@@ -46,14 +46,16 @@ Ubiquitous deployment of embedded systems with access to Internet gateways has l
 %
 %\end{itemize}
 
-\section{Research Contribution}
+\section*{Research Contribution}
 
 This dissertation makes the following contributions:
 
 
-\begin{itemize}
+\begin{enumerate}
 
-\item \textbf{Prov-CPS: trace-based provenance collection framework.} The design and implementation of a provenance collection framework for capturing trace-based events for tracking data flow in an application's logic. This framework generates a trace of streaming events through application instrumentation with low execution run-time overhead that is decoupled from the more resource-intensive activities of provenance processing and analysis.
+
+
+\item \textbf{Prov-CPS: trace-based provenance collection framework.} The design and implementation of a provenance collection framework for capturing trace-based events for tracking data flow in an application's logic in memory constrained bare-metal devices (i.e., devices without an operating system). This framework generates a trace of streaming events through application instrumentation with low execution run-time overhead that is decoupled from the more resource-intensive activities of provenance processing and analysis.
 
 \item \textbf{Provenance data model for trace events.} A unified data model that represents the information flow semantics of data movement among components in an abstract CPS. This abstraction is mapped to real CPSs to facilitate automation of provenance data collection and analysis.
 
@@ -63,9 +65,9 @@ This dissertation makes the following contributions:
 
 
 
-\end{itemize}
+\end{enumerate}
 
-\section{Organization of Dissertation}
+\section*{Organization of Dissertation}
 
 The remaining portion of this dissertation is organized as follows: In chapter 2, we review background information on CPS, anomaly detection, and data provenance. We also discuss PROV-DM, a provenance ontological construct. In Chapter 3, we outline related work on provenance collection systems, provenance-based pruning techniques, and provenance-based intrusion detection. In Chapter 4, we give a detailed description of Prov-CPS, and provenance-trace data model. In Chapter 5, we describe our pruning heuristics. In Chapter 6, we discuss our anomaly detection algorithm using provenance graphs. Finally, we conclude in Chapter 7 with future research directions.
 

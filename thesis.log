@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 APR 2018 12:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 MAY 2018 01:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -433,7 +433,10 @@ tionskip .
 \c@lotdepth=\count122
 \sf@top=\skip48
 \sf@bottom=\skip49
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/03/10 v2.15b AMS math features
 \@mathmargin=\skip50
 
@@ -536,18 +539,18 @@ Package: gensymb 2003/07/02 v1.0 (WaS)
 (./chapter5.aux) (./chapter6.aux) (./chapter7.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -614,53 +617,53 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \celsius on input line 26.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 26.
+LaTeX Info: Redefining \celsius on input line 28.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 28.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 26.
-Package gensymb Info: Using \Omega for \ohm on input line 26.
+LaTeX Info: Redefining \ohm on input line 28.
+Package gensymb Info: Using \Omega for \ohm on input line 28.
 
 Package gensymb Warning: Not defining \micro.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
 
  []
 
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 79.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 81.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 79.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 81.
  [2] [3] [4]
 \openout2 = `acknowl.aux'.
 
@@ -695,7 +698,7 @@ No file preface.tex.
  [9
 
 ] (./thesis.lof
-Overfull \hbox (9.19122pt too wide) in paragraph at lines 11--11
+Overfull \hbox (9.19122pt too wide) in paragraph at lines 12--12
  \OT1/cmr/m/n/12 ated from both prove-nance graphs and la-bels are an ab-strac-
 tion of $(\OML/cmm/m/it/12 type; value\OT1/cmr/m/n/12 )$ 
  []
@@ -725,6 +728,12 @@ Chapter 1.
 
  (./background.tex
 Chapter 2.
+
+Overfull \hbox (1.42735pt too wide) in paragraph at lines 54--55
+[]\OT1/cmr/m/n/12 Provenance is de-fined as ``The place of ori-gin or ear-li-es
+t known his-tory of some-thing" [[]].
+ []
+
 [5
 
 
@@ -763,40 +772,50 @@ File: prov_sensor_v3.pdf Graphic file (type pdf)
 <use prov_sensor_v3.pdf>
 Package pdftex.def Info: prov_sensor_v3.pdf used on input line 92.
 (pdftex.def)             Requested size: 277.51935pt x 151.21132pt.
- [24]
-<sys_arc_3_6.pdf, id=124, 350.30875pt x 311.1625pt>
+ [24] [25 <./prov_sensor_v3.pdf>]
+<sys_arc_3_6.pdf, id=160, 350.30875pt x 311.1625pt>
 File: sys_arc_3_6.pdf Graphic file (type pdf)
  <use sys_arc_3_6.pdf>
-Package pdftex.def Info: sys_arc_3_6.pdf used on input line 217.
+Package pdftex.def Info: sys_arc_3_6.pdf used on input line 231.
 (pdftex.def)             Requested size: 277.51935pt x 246.52313pt.
 
-[25 <./prov_sensor_v3.pdf>] [26 <./sys_arc_3_6.pdf>]
-<system_implementation_v4.pdf, id=205, 533.995pt x 161.60374pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[26] [27 <./sys_arc_3_6.pdf>]
+<system_implementation_v4.pdf, id=209, 533.995pt x 161.60374pt>
 File: system_implementation_v4.pdf Graphic file (type pdf)
 
 <use system_implementation_v4.pdf>
-Package pdftex.def Info: system_implementation_v4.pdf used on input line 239.
+Package pdftex.def Info: system_implementation_v4.pdf used on input line 258.
 (pdftex.def)             Requested size: 277.51935pt x 83.98758pt.
- [27 <./system_implementation_v4.pdf>])
-[28]
+) [28 <./system_implementation_v4.pdf>]
 \openout2 = `chapter4.aux'.
 
- (./chapter4.tex
+
+(./chapter4.tex
 Chapter 5.
 [29
 
 
 
-] [30]) [31]
+] <output_prov_trace.pdf, id=228, 431.25806pt x 330.5537pt>
+File: output_prov_trace.pdf Graphic file (type pdf)
+
+<use output_prov_trace.pdf>
+Package pdftex.def Info: output_prov_trace.pdf used on input line 113.
+(pdftex.def)             Requested size: 277.51935pt x 212.71371pt.
+ [30] [31 <./output_prov_trace.pdf>] [32]) [33]
 \openout2 = `chapter5.aux'.
 
- (./chapter5.tex
+
+(./chapter5.tex
 Chapter 6.
-[32
+[34
 
 
 
-] <Picture_13_edit_5.pdf, id=237, 1134.2375pt x 600.2425pt>
+] <Picture_13_edit_5.pdf, id=283, 1134.2375pt x 600.2425pt>
 File: Picture_13_edit_5.pdf Graphic file (type pdf)
 
 <use Picture_13_edit_5.pdf>
@@ -806,50 +825,49 @@ Package pdftex.def Info: Picture_13_edit_5.pdf used on input line 26.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[33]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[34 <./Picture_13_edit_5.pdf>] [35]) [36]
+[35] [36 <./Picture_13_edit_5.pdf>] [37] [38]) [39]
 \openout2 = `chapter6.aux'.
 
  (./chapter6.tex
 Chapter 7.
-[37
+[40
 
 
 
-] <foo.pdf, id=359, 508.46524pt x 399.55524pt>
+] <foo.pdf, id=409, 508.46524pt x 399.55524pt>
 File: foo.pdf Graphic file (type pdf)
  <use foo.pdf>
 Package pdftex.def Info: foo.pdf used on input line 23.
 (pdftex.def)             Requested size: 277.51935pt x 218.08554pt.
- [38 <./foo.pdf>] [39]
+ [41 <./foo.pdf>] [42]
 Overfull \hbox (6.78426pt too wide) in paragraph at lines 62--75
  [][] 
  []
 
-<roc_curve_0.pdf, id=396, 361.35pt x 361.35pt>
+<roc_curve_0.pdf, id=445, 361.35pt x 361.35pt>
 File: roc_curve_0.pdf Graphic file (type pdf)
  <use roc_curve_0.pdf>
 Package pdftex.def Info: roc_curve_0.pdf used on input line 138.
 (pdftex.def)             Requested size: 138.75967pt x 138.75902pt.
 
-<roc_curve_1.pdf, id=397, 361.35pt x 361.35pt>
+<roc_curve_1.pdf, id=446, 361.35pt x 361.35pt>
 File: roc_curve_1.pdf Graphic file (type pdf)
  <use roc_curve_1.pdf>
 Package pdftex.def Info: roc_curve_1.pdf used on input line 140.
 (pdftex.def)             Requested size: 138.75967pt x 138.75902pt.
 
-<roc_curve_2.pdf, id=398, 361.35pt x 361.35pt>
+<roc_curve_2.pdf, id=447, 361.35pt x 361.35pt>
 File: roc_curve_2.pdf Graphic file (type pdf)
  <use roc_curve_2.pdf>
 Package pdftex.def Info: roc_curve_2.pdf used on input line 142.
 (pdftex.def)             Requested size: 138.75967pt x 138.75902pt.
- [40 <./roc_curve_0.pdf> <./roc_curve_1.pdf
+ [43 <./roc_curve_0.pdf> <./roc_curve_1.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./roc_curve_1.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
@@ -857,16 +875,16 @@ usion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./roc_curve_2.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
->] [41]) [42]
+>] [44]) [45]
 \openout2 = `chapter7.aux'.
 
  (./chapter7.tex
 Chapter 8.
-[43
+[46
 
 
 
-]) [44] (./thesis.bbl [45
+]) [47] (./thesis.bbl [48
 
 
 ]
@@ -881,18 +899,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--99
 ise / media / security _
  []
 
-[46] [47] [48] [49] [50] [51]) [52] (./thesis.aux (./acknowl.aux)
+[49] [50] [51] [52] [53] [54]) [55] (./thesis.aux (./acknowl.aux)
 (./preface.aux) (./abstract.aux) (./null.aux) (./chapter1.aux)
 (./background.aux) (./chapter2.aux) (./chapter3.aux) (./chapter4.aux)
 (./chapter5.aux) (./chapter6.aux) (./chapter7.aux)) ) 
 Here is how much of TeX's memory you used:
- 14604 strings out of 493014
- 281859 string characters out of 6133351
- 338707 words of memory out of 5000000
- 17765 multiletter control sequences out of 15000+600000
+ 14617 strings out of 493014
+ 282257 string characters out of 6133351
+ 338792 words of memory out of 5000000
+ 17773 multiletter control sequences out of 15000+600000
  12453 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,10n,54p,2627b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,10n,54p,2627b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2016/texm
@@ -908,10 +926,10 @@ s/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (62 pages, 487604 bytes).
+Output written on thesis.pdf (65 pages, 509051 bytes).
 PDF statistics:
- 571 PDF objects out of 1000 (max. 8388607)
- 317 compressed objects within 4 object streams
+ 619 PDF objects out of 1000 (max. 8388607)
+ 329 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
