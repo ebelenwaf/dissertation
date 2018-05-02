@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 MAY 2018 01:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 MAY 2018 03:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -756,24 +756,24 @@ Chapter 3.
 
 
 
-] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20]) [21]
+] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21]) [22]
 \openout2 = `chapter3.aux'.
 
 
 (./chapter3.tex
 Chapter 4.
-[22
+[23
 
 
 
-] [23] <prov_sensor_v3.pdf, id=120, 291.0875pt x 158.5925pt>
+] [24] <prov_sensor_v3.pdf, id=123, 291.0875pt x 158.5925pt>
 File: prov_sensor_v3.pdf Graphic file (type pdf)
 
 <use prov_sensor_v3.pdf>
 Package pdftex.def Info: prov_sensor_v3.pdf used on input line 92.
 (pdftex.def)             Requested size: 277.51935pt x 151.21132pt.
- [24] [25 <./prov_sensor_v3.pdf>]
-<sys_arc_3_6.pdf, id=160, 350.30875pt x 311.1625pt>
+ [25] [26 <./prov_sensor_v3.pdf>]
+<sys_arc_3_6.pdf, id=163, 350.30875pt x 311.1625pt>
 File: sys_arc_3_6.pdf Graphic file (type pdf)
  <use sys_arc_3_6.pdf>
 Package pdftex.def Info: sys_arc_3_6.pdf used on input line 231.
@@ -782,40 +782,40 @@ Package pdftex.def Info: sys_arc_3_6.pdf used on input line 231.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[26] [27 <./sys_arc_3_6.pdf>]
-<system_implementation_v4.pdf, id=209, 533.995pt x 161.60374pt>
+[27] [28 <./sys_arc_3_6.pdf>]
+<system_implementation_v4.pdf, id=212, 533.995pt x 161.60374pt>
 File: system_implementation_v4.pdf Graphic file (type pdf)
 
 <use system_implementation_v4.pdf>
 Package pdftex.def Info: system_implementation_v4.pdf used on input line 258.
 (pdftex.def)             Requested size: 277.51935pt x 83.98758pt.
-) [28 <./system_implementation_v4.pdf>]
+) [29 <./system_implementation_v4.pdf>]
 \openout2 = `chapter4.aux'.
 
 
 (./chapter4.tex
 Chapter 5.
-[29
+[30
 
 
 
-] <output_prov_trace.pdf, id=228, 431.25806pt x 330.5537pt>
+] <output_prov_trace.pdf, id=231, 431.25806pt x 330.5537pt>
 File: output_prov_trace.pdf Graphic file (type pdf)
 
 <use output_prov_trace.pdf>
 Package pdftex.def Info: output_prov_trace.pdf used on input line 113.
 (pdftex.def)             Requested size: 277.51935pt x 212.71371pt.
- [30] [31 <./output_prov_trace.pdf>] [32]) [33]
+ [31] [32 <./output_prov_trace.pdf>] [33]) [34]
 \openout2 = `chapter5.aux'.
 
 
 (./chapter5.tex
 Chapter 6.
-[34
+[35
 
 
 
-] <Picture_13_edit_5.pdf, id=283, 1134.2375pt x 600.2425pt>
+] <Picture_13_edit_5.pdf, id=286, 1134.2375pt x 600.2425pt>
 File: Picture_13_edit_5.pdf Graphic file (type pdf)
 
 <use Picture_13_edit_5.pdf>
@@ -831,43 +831,43 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[35] [36 <./Picture_13_edit_5.pdf>] [37] [38]) [39]
+[36] [37 <./Picture_13_edit_5.pdf>] [38] [39]) [40]
 \openout2 = `chapter6.aux'.
 
  (./chapter6.tex
 Chapter 7.
-[40
+[41
 
 
 
-] <foo.pdf, id=409, 508.46524pt x 399.55524pt>
+] <foo.pdf, id=412, 508.46524pt x 399.55524pt>
 File: foo.pdf Graphic file (type pdf)
  <use foo.pdf>
 Package pdftex.def Info: foo.pdf used on input line 23.
 (pdftex.def)             Requested size: 277.51935pt x 218.08554pt.
- [41 <./foo.pdf>] [42]
+ [42 <./foo.pdf>] [43]
 Overfull \hbox (6.78426pt too wide) in paragraph at lines 62--75
  [][] 
  []
 
-<roc_curve_0.pdf, id=445, 361.35pt x 361.35pt>
+<roc_curve_0.pdf, id=448, 361.35pt x 361.35pt>
 File: roc_curve_0.pdf Graphic file (type pdf)
  <use roc_curve_0.pdf>
 Package pdftex.def Info: roc_curve_0.pdf used on input line 138.
 (pdftex.def)             Requested size: 138.75967pt x 138.75902pt.
 
-<roc_curve_1.pdf, id=446, 361.35pt x 361.35pt>
+<roc_curve_1.pdf, id=449, 361.35pt x 361.35pt>
 File: roc_curve_1.pdf Graphic file (type pdf)
  <use roc_curve_1.pdf>
 Package pdftex.def Info: roc_curve_1.pdf used on input line 140.
 (pdftex.def)             Requested size: 138.75967pt x 138.75902pt.
 
-<roc_curve_2.pdf, id=447, 361.35pt x 361.35pt>
+<roc_curve_2.pdf, id=450, 361.35pt x 361.35pt>
 File: roc_curve_2.pdf Graphic file (type pdf)
  <use roc_curve_2.pdf>
 Package pdftex.def Info: roc_curve_2.pdf used on input line 142.
 (pdftex.def)             Requested size: 138.75967pt x 138.75902pt.
- [43 <./roc_curve_0.pdf> <./roc_curve_1.pdf
+ [44 <./roc_curve_0.pdf> <./roc_curve_1.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./roc_curve_1.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
@@ -875,16 +875,16 @@ usion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./roc_curve_2.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
->] [44]) [45]
+>] [45]) [46]
 \openout2 = `chapter7.aux'.
 
  (./chapter7.tex
 Chapter 8.
-[46
+[47
 
 
 
-]) [47] (./thesis.bbl [48
+]) [48] (./thesis.bbl [49
 
 
 ]
@@ -899,7 +899,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--99
 ise / media / security _
  []
 
-[49] [50] [51] [52] [53] [54]) [55] (./thesis.aux (./acknowl.aux)
+[50] [51] [52] [53] [54] [55]) [56] (./thesis.aux (./acknowl.aux)
 (./preface.aux) (./abstract.aux) (./null.aux) (./chapter1.aux)
 (./background.aux) (./chapter2.aux) (./chapter3.aux) (./chapter4.aux)
 (./chapter5.aux) (./chapter6.aux) (./chapter7.aux)) ) 
@@ -926,10 +926,10 @@ s/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (65 pages, 509051 bytes).
+Output written on thesis.pdf (66 pages, 511326 bytes).
 PDF statistics:
- 619 PDF objects out of 1000 (max. 8388607)
- 329 compressed objects within 4 object streams
+ 622 PDF objects out of 1000 (max. 8388607)
+ 331 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  63 words of extra memory for PDF output out of 10000 (max. 10000000)
 

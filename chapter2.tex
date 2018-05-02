@@ -151,24 +151,26 @@ Hailesellasie and Hasan~\cite{hailesellasie_intrusion_2018} introduce a graph-ba
 
 \section{Summary of Related Work}
 
-While exploring prior state of the art on provenance collection systems, it is evident that none of the previous work addresses the issue of provenance collection on cyber-physical systems with major emphasis on memory constrained bare-metal devices (i.e., devices without operating systems). 
+While exploring prior state of the art on provenance collection systems, it is evident that none of the previous work addresses the issue of provenance collection on cyber-physical systems with major emphasis on memory constrained bare-metal devices (i.e., devices without operating systems). This dissertation addresses the issue of provenance collection on memory constrained cyber-physical systems.
 
-A closely related work to the use of anomaly detection applied to the J1939 network bus is the technique proposed by Murkherjee et al.~\cite{Mukherjee2017APG}.
+For provenance-collection systems, \cite{jia2017contexiot, Wang2017FearAL, tariq_towards_2012} are closely related to PROV-CPS. We compare PROV-CPS to the aforementioned closely related work as follows:
 
-In the experimental evaluation, one key difference to note is the use of a fixed window size of 1 seconds to generate a precedence graph from the dataset. Our approach on the other hand utilizes varied window sizes. This allows for better understanding of the effects of false positive rate and true positive rate on the window size. Another difference is a window is classified as malicious only if it contains at least a quarter of malicious messages.This might be problematic if there exists less than a quarter malicious messages in the window. In our approach, we classify a window as malicious if it contains a malicious message. In addition, malicious messages are injected at three phases: the start, the middle and towards the end of the dataset. In our approach, we inject messages at time gaps that are 12 times the average time gap which allows simulation of malicious message without time overlap. 
+\begin{enumerate}
 
+\item ProvThings~\cite{Wang2017FearAL} and ContextIoT~\cite{jia2017contexiot} generates an abstract syntax tree of an instrumented program at runtime after which a selective code instrumentation is performed based on selecting security sensitive methods. This process incurs additional overhead. PROV-CPS generates application trace events which are converted into provenance. To further optimize task, both process can be performed in parallel.
 
-For provenance-collection systems, \cite{jia2017contexiot, Wang2017FearAL, tariq_towards_2012} are closely related to our approach.
+\item Tariq et al.~\cite{tariq_towards_2012} utilizes the LLVM compiler which generates provenance for all function calls entry and exit points contained an application before it is then optimized. This produces a lot of provenance data  irrelevant to the application. Our approach specifies what trace data to collect from program instrumentation at run-time before our pruning heuristic is used to further streamline trace data generated. PROV-CPS deals beyond the function level. It deals with interactions within events in an application from a variable to a more complex data structure.
 
-In static instrumentation, ProvThings generates an abstract syntax tree of the instrumented program at application runtime after which a selective code instrumentation is performed based on security sensitive methods known as sources and sink. This incurs additional overhead-- the total runtime for this algorithm is $O(n^2)$. Our approach generates application trace events which is converted to provenance both process can be done both in parallel. The total runtine for our trace algorithm is $O(n)$.
+\end{enumerate}
 
-
-
-
-
+A closely related work to the use of anomaly detection applied in the J1939 network bus is the technique proposed by Murkherjee et al.~\cite{Mukherjee2017APG}. In the experimental evaluation, one key difference is the use of a fixed window size of 1 seconds to generate a precedence graph from the dataset. Our approach on the other hand utilizes varied window sizes. This allows for better understanding of the effects of false positive rate and true positive rate on the window size.  Another difference is a window is classified as malicious only if it contains at least a quarter of malicious messages.This might be problematic if there exists less than a quarter malicious messages in the window. In our approach, we classify a window as malicious if it contains a malicious message. In addition, malicious messages are injected at three phases: the start, the middle and towards the end of the dataset. In our approach, we inject messages at time gaps that are 12 times the average time gap which allows simulation of malicious message without time overlap. 
 
 
-This dissertation addresses the issue of provenance collection on memory constrained cyber-physical systems.
+
+
+%Static analysis to identify all of the security sensitive methods before a information flow graph is generated. Continous logging also done to update information der 
+
+
 
 
 
