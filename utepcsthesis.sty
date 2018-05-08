@@ -58,7 +58,7 @@
     \chapter*{\contentsname
         \@mkboth{%
            \MakeUppercase\contentsname}{\MakeUppercase\contentsname}}%
-    \addcontentsline{toc}{chapter}{Table of Contents}%
+    %\addcontentsline{toc}{chapter}{Table of Contents}%
     \@starttoc{toc}%
     \if@restonecol\twocolumn\fi
     }
@@ -215,20 +215,26 @@
 \textbf{\@deptnm} \\[0.2in]
 DISSERTATION COMMITTEE
 \end{center}
-\vfill
-\hspace{3.5in}APPROVED:\\[0.15in]
+\ssp
+%\vfill
+\hspace{3.5in}\\[0.3in]
+%\\[0.15in]
+
+\noindent
+\hspace{3.5in}\underline{\hspace{2.9in}}
+
+
+\noindent
+\hspace{3.5in}\@comchair
+
+\noindent
+\hspace{3.5in}Chairperson\\[0.3in]
 
 \noindent
 \hspace{3.5in}\underline{\hspace{2.9in}}
 
 \noindent
-\hspace{3.5in}\@comchair\\[0.15in]
-
-\noindent
-\hspace{3.5in}\underline{\hspace{2.9in}}
-
-\noindent
-\hspace{3.5in}\@commbtwo\\[0.15in]
+\hspace{3.5in}\@commbtwo\\[0.3in]
 
 \noindent
 \hspace{3.5in}\underline{\hspace{2.9in}}
@@ -237,22 +243,34 @@ DISSERTATION COMMITTEE
 \hspace{3.5in}\@commbthree%
 %
 \if@fourthmem%
-   \\[0.15in]
+   \\[0.3in]
 
    \noindent
    \hspace{3.5in}\underline{\hspace{2.9in}}
 
    \noindent
    \hspace{3.5in}\@commbfour%
+
+   \noindent
+   \hspace{3.5in}Noblis Inc.%
+
+   \noindent
+   \hspace{3.5in}Reston,VA%
 \fi%
-\\[1in]
+\\[0.3in]
 
 \noindent
 \underline{\hspace{2.9in}}\\
 \@gradschooldean\\
-Dissertation Advisor
+Dissertation Advisor\\
+\\[0.3in]
+\noindent
+Candidate: Ebelechukwu Nwafor\\
+Date of Defense: April 20, 2018
 
-\newpage}
+\newpage
+\dsp
+}
 
 \newenvironment{CenteredPage}
   {

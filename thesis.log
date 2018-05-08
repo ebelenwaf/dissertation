@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  7 MAY 2018 21:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 MAY 2018 13:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -494,6 +494,9 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/algorithms/algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
@@ -539,18 +542,18 @@ Package: gensymb 2003/07/02 v1.0 (WaS)
 (./chapter5.aux) (./chapter6.aux) (./chapter7.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -617,52 +620,52 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \celsius on input line 28.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 28.
+LaTeX Info: Redefining \celsius on input line 29.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 29.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 28.
-Package gensymb Info: Using \Omega for \ohm on input line 28.
+LaTeX Info: Redefining \ohm on input line 29.
+Package gensymb Info: Using \Omega for \ohm on input line 29.
 
 Package gensymb Warning: Not defining \micro.
 
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
 
  []
 
 [2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 84.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 87.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 84.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 87.
  [3] [4]
 \openout2 = `acknowl.aux'.
 
@@ -771,7 +774,11 @@ File: prov_sensor_v3.pdf Graphic file (type pdf)
 <use prov_sensor_v3.pdf>
 Package pdftex.def Info: prov_sensor_v3.pdf used on input line 92.
 (pdftex.def)             Requested size: 277.51935pt x 151.21132pt.
- [25] [26 <./prov_sensor_v3.pdf>]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[25] [26 <./prov_sensor_v3.pdf>]
 <sys_arc_3_6.pdf, id=163, 350.30875pt x 311.1625pt>
 File: sys_arc_3_6.pdf Graphic file (type pdf)
  <use sys_arc_3_6.pdf>
@@ -781,18 +788,20 @@ Package pdftex.def Info: sys_arc_3_6.pdf used on input line 231.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[27] [28 <./sys_arc_3_6.pdf>]
-<system_implementation_v4.pdf, id=212, 533.995pt x 161.60374pt>
+[27] <system_implementation_v4.pdf, id=168, 533.995pt x 161.60374pt>
 File: system_implementation_v4.pdf Graphic file (type pdf)
 
 <use system_implementation_v4.pdf>
 Package pdftex.def Info: system_implementation_v4.pdf used on input line 258.
 (pdftex.def)             Requested size: 277.51935pt x 83.98758pt.
-) [29 <./system_implementation_v4.pdf>]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[28 <./sys_arc_3_6.pdf>]) [29 <./system_implementation_v4.pdf>]
 \openout2 = `chapter4.aux'.
 
-
-(./chapter4.tex
+ (./chapter4.tex
 Chapter 5.
 [30
 
@@ -866,7 +875,8 @@ File: roc_curve_2.pdf Graphic file (type pdf)
  <use roc_curve_2.pdf>
 Package pdftex.def Info: roc_curve_2.pdf used on input line 142.
 (pdftex.def)             Requested size: 138.75967pt x 138.75902pt.
- [44 <./roc_curve_0.pdf> <./roc_curve_1.pdf
+ [44])
+[45 <./roc_curve_0.pdf> <./roc_curve_1.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./roc_curve_1.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
@@ -874,7 +884,7 @@ usion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./roc_curve_2.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
->] [45]) [46]
+>] [46]
 \openout2 = `chapter7.aux'.
 
  (./chapter7.tex
@@ -903,10 +913,10 @@ ise / media / security _
 (./background.aux) (./chapter2.aux) (./chapter3.aux) (./chapter4.aux)
 (./chapter5.aux) (./chapter6.aux) (./chapter7.aux)) ) 
 Here is how much of TeX's memory you used:
- 14617 strings out of 493014
- 282257 string characters out of 6133351
- 338865 words of memory out of 5000000
- 17773 multiletter control sequences out of 15000+600000
+ 14647 strings out of 493014
+ 282813 string characters out of 6133351
+ 339249 words of memory out of 5000000
+ 17799 multiletter control sequences out of 15000+600000
  12453 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,10n,54p,2627b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -925,7 +935,7 @@ s/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (66 pages, 511749 bytes).
+Output written on thesis.pdf (66 pages, 511520 bytes).
 PDF statistics:
  622 PDF objects out of 1000 (max. 8388607)
  331 compressed objects within 4 object streams

@@ -1,7 +1,8 @@
 \hfill {\bf Page}
+\contentsline {chapter}{Dissertation Committee}{ii}
+\contentsline {chapter}{Dedication}{iv}
 \contentsline {chapter}{Acknowledgements}{v}
 \contentsline {chapter}{Abstract}{vi}
-\contentsline {chapter}{Table of Contents}{vii}
 \contentsline {chapter}{List of Tables}{ix}
 \contentsline {chapter}{List of Figures}{x}
 \noindent {\bf Chapter}
@@ -37,9 +38,9 @@
 \contentsline {chapter}{\numberline {6}Provenance-Based Anomaly Detection}{35}
 \contentsline {section}{\numberline {6.1}Graph Similarity}{35}
 \contentsline {section}{\numberline {6.2}Anomaly Detection on Provenance Graphs}{36}
-\contentsline {subsection}{\numberline {6.2.1}Defining Anomaly Threshold}{38}
+\contentsline {subsection}{\numberline {6.2.1}Defining Anomaly Threshold}{39}
 \contentsline {subsection}{\numberline {6.2.2}Complexity analysis}{39}
-\contentsline {subsection}{\numberline {6.2.3}Threat Assumptions}{40}
+\contentsline {subsection}{\numberline {6.2.3}Threat Assumptions}{39}
 \contentsline {section}{\numberline {6.3}Summary}{40}
 \contentsline {chapter}{\numberline {7}Experiments}{41}
 \contentsline {section}{\numberline {7.1}Climate Control System}{41}

@@ -7,5 +7,5 @@
 \contentsline {table}{\numberline {5.1}{\ignorespaces Trace data size as number of trace increases \relax }}{30}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Cumulative results of anomaly detection true negative (TN), true positive (TP), false negative (FN), and false positive (FP) for no pruning, FIFO-based pruning, and prioritized pruning based on application priority values.\relax }}{45}
+\contentsline {table}{\numberline {7.1}{\ignorespaces Cumulative results of anomaly detection true negative (TN), true positive (TP), false negative (FN), and false positive (FP) for no pruning, FIFO-based pruning, and prioritized pruning based on application priority values.\relax }}{44}
 \addvspace {10\p@ }
