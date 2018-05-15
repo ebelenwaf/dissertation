@@ -184,9 +184,10 @@
 }
 
 
-\newcommand{\CommitteeMembers}[2]{%
+\newcommand{\CommitteeMembers}[3]{%
  \gdef\@commbtwo{#1}
  \gdef\@commbthree{#2}
+ \gdef\@commbadditional{#3}
 }
 
 \newcommand{\AdditionalMember}[1]{%
@@ -217,7 +218,7 @@ DISSERTATION COMMITTEE
 \end{center}
 \ssp
 %\vfill
-\hspace{3.5in}\\[0.3in]
+\hspace{1.5in}\\[0.2in]
 %\\[0.15in]
 
 \noindent
@@ -228,22 +229,28 @@ DISSERTATION COMMITTEE
 \hspace{3.5in}\@comchair
 
 \noindent
-\hspace{3.5in}Chairperson\\[0.3in]
+\hspace{3.5in}Chairperson\\[0.2in]
 
 \noindent
 \hspace{3.5in}\underline{\hspace{2.9in}}
 
 \noindent
-\hspace{3.5in}\@commbtwo\\[0.3in]
+\hspace{3.5in}\@commbtwo\\[0.2in]
 
 \noindent
 \hspace{3.5in}\underline{\hspace{2.9in}}
 
 \noindent
-\hspace{3.5in}\@commbthree%
+\hspace{3.5in}\@commbthree\\[0.2in]
+
+\noindent
+\hspace{3.5in}\underline{\hspace{2.9in}}
+
+\noindent
+\hspace{3.5in}\@commbadditional
 %
 \if@fourthmem%
-   \\[0.3in]
+   \\[0.2in]
 
    \noindent
    \hspace{3.5in}\underline{\hspace{2.9in}}
@@ -260,13 +267,13 @@ DISSERTATION COMMITTEE
    \noindent
    \hspace{3.5in}Reston,VA%
 \fi%
-\\[0.3in]
+\\[0.2in]
 
 \noindent
 \underline{\hspace{2.9in}}\\
 \@gradschooldean\\
 Dissertation Advisor\\
-\\[0.3in]
+\\[0.2in]
 \noindent
 Candidate: Ebelechukwu Nwafor\\
 Date of Defense: April 20, 2018
@@ -325,7 +332,7 @@ May 2018
 \newpage
 % Double-spacing begins here
 \dsp
-\setlength{\footskip}{80pt}
+\setlength{\footskip}{86pt}
 }
 
 \newcommand{\addboldline}[2]{%
